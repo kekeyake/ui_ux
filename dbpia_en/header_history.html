@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>    
+<meta name="naver-site-verification" content="ce032d986bf7a6b25ebf9bfda6f3d37e499dd407"/>
+<!-- End Naver  -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport"
+content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>검색</title>
+<link rel="icon" href="/images/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="https://www.dbpia.co.kr/css/common.min.css?ver=20220128-05"/>
+<link rel="stylesheet" type="text/css" href="https://www.dbpia.co.kr/css/layout.min.css?ver=20220128-05"/>
+<link rel="stylesheet" type="text/css" href="https://www.dbpia.co.kr/css/jquery-ui-1.12.1.css"/>
+<link rel="stylesheet" type="text/css" href="https://www.dbpia.co.kr/css/jquery-ui.structure.css"/>
+<link rel="stylesheet" type="text/css" href="/assets/mloading/jquery.mloading.css"/>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/jquery-ui-1.12.1.min.js"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/common.js?ver=20220128-05"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/search.js?ver=20220128-05"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/assets/mloading/jquery.mloading.js"></script>
+<link rel="stylesheet" type="text/css" href="https://www.dbpia.co.kr/css/content.service.css"/>
+<div id="skipNavigation">
+<a href="#contents">본문 바로가기</a>
+</div>
+<!-- 모바일 내비게이션 (시작) -->
+<div class="mobileNavgation" id="mobile">
+</div><!-- 모바일 내비게이션 (끝) -->
+<div class="wrap serviceP">
+<input type="hidden" id="dev_page" value="1">
+<input type="hidden" id="dev_pageCount" value="10">
+<input type="hidden" id="dev_data_index" value="0">
+<!-- 헤더 (시작) -->
+<div class="header" id="header"> 
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/multi_language.js?ver=20220128-05"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/dev_common.js?ver=20220128-05"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/search.js?ver=20220128-05"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/nuri_Statistics.js?ver=20220128-05"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/navigation.js?ver=20220128-05"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/new.js?ver=20220128-05"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/topbanner/top_banner.min.js?ver=20220128-05"></script>
+<link rel="stylesheet" type="text/css" href="https://www.dbpia.co.kr/css/navigation.min.css?ver=20220128-05">
+<div class="bnHead" id="bnHead">
+<div class="mobileNavgation">
+<nav class="menuPanel">
+<div class="menuHead">
+<p class="login" id="pub_login_moblie">
+<a href="#"
+onclick="fn_statistics('A102', '', '');sslMove('/member/login')">
+</a>
+</p>
+<button type='button' class="button-menu-close" aria-label='메뉴 닫기'></button>
+</div>
+<div class="menuBody">
+<ul class="menu">
+<li class="label eToggleSectionMobile">
+<a href="/member/b2bLogin" class="nom m_adduct">소속 기관 / 학교 인증</a>
+</li>
+<li class="label eToggleSectionMobile">
+<a href="/member/login" class="nom mainColor">로그인</a>
+</li>
+<li class="label eToggleSectionMobile">
+<a href="/join/joinAgree" class="nom">회원가입</a>
+</li>
+<li class="label eToggleSectionMobile">
+<a href="#none" class="mm m03">
+고객센터
+</a>
+<ul class="list eHideSecMobile" style="display: none;">
+<li class="item">
+<a href="/intro/dbpia"
+onclick="fn_statistics('A135', '', '')"
+class="sm">
+DBpia 소개
+</a>
+</li>
+<li class="item">
+<a href="/notice/userGuide"
+onclick="fn_statistics('A136', '', '')"
+class="sm">
+이용안내
+</a>
+</li>
+<li class="item">
+<a href="/notice/noticeList"
+onclick="fn_statistics('A137', '', '')"
+class="sm">
+공지사항
+</a></li>
+<li class="item">
+<a href="/notice/newsList"
+onclick="fn_statistics('A138', '', '')"
+class="sm">
+학회소식
+</a>
+</li>
+<li class="item">
+<a href="/trial/trial"
+onclick="fn_statistics('A139', '', '')"
+class="sm">
+트라이얼신청
+</a>
+</li>
+<li class="item">
+<a href="/faq/faqList"
+onclick="fn_statistics('A140', '', '')"
+class="sm">
+FAQ
+</a>
+</li>
+</ul>
+</li>
+<li class="label">
+<a href="/mypage/informSetting" class="mm">내소식</a>
+</li>
+</ul>
+</div>
+<div class="menuFoot">
+<div class="gRight">
+<a href="#" class="lang_ico"
+onclick="resolveLocal();fn_statistics('A142', '', '')"></a>
+</div>
+</div>
+</nav>
+<div class="menuPanelOverlay" style="display: none;"></div>
+</div>
+<div class="notification" id="pub_notification" style="display: none;">
+<div class="inner">
+<div class="txtWrap">
+<span class="txtBold">(이)가 구독하지 않는 논문으로 ‘미리보기’만 가능합니다.</span>
+<span>도서관의 ‘원문복사 서비스’를 통해 원문을 이용하실 수 있습니다. 원문복사 서비스 이용방법은 도서관 사이트를 확인해 주세요.</span>
+<a href="#" onClick="">원문복사 서비스 이용하기</a>
+</div>
+</div>
+</div>
+<div class="inner">
+<div class="hdWrap">
+<h1 class="logo">
+<a href="javascript:location.href='/';fn_statistics('A141', '', '')"
+id="aTopLogoImg">
+<span class="blind">DBpia</span>
+</a>
+</h1>
+<div class="gSearch">
+<div class="searchFrom">
+<span class="fSelect">
+<label>
+<span>
+전체
+</span>
+<select id="dev_srchOpt"
+title="검색 필드 선택">
+<option value="*">전체</option>
+<option value="NODE_NM_2">논문명</option>
+<option value="NODE_NM_2 | NODE_ABST">논문명+초록</option>
+<option value="SRCH_AUTR_NM | SRCH_AUTR_NM_2 | AUTR_NM_2 | AUTR_NM_3">저자명</option>
+<option value="SRCH_NODE_KYWD">키워드명</option>
+</select>
+</label>
+</span>
+<span class="gInputText">
+<span class="placeholder">
+키워드, 저널, 학회, 저자 등을 입력해 주세요.
+</span>
+<input type="search" id="keyword" class="search" autocomplete="off"
+title="키워드 검색" required/>
+<button type='reset' class="button-search-cancel" aria-label="키워드 삭제"></button>
+</span>
+<a href="#none" class="btnSearch"
+onclick="searchGo();fn_statistics('A105', '', '')"></a>
+</div>
+<div class="atcmpLayer" id="pub_atcmpLayer">
+<ul class="atcmpList"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<!-- jinstar start -->
+			<link rel="stylesheet" type="text/css" href="_css/agc_style.css">
+			<div class="agc_header_search">
+				<div class="agc_hs_inner">
+					<ul>
+						<li class="agc_no_data">There are no recent search history.</li>
+						<li class="agc_del_list">Recent search <a class="agc_all_dellist">Delete all</a></li>
+						<li>
+							<p class="agc_ficon agc_fi_time"></p>
+							<a href="#" class="agc_search_word">Research article</a>
+							<a href="#" target="_blank" class="agc_del_this"></a>
+						</li>
+						<li>
+							<p class="agc_ficon agc_fi_time"></p>
+							<a href="#" class="agc_search_word">special article</a>
+							<a href="#" target="_blank" class="agc_del_this"></a>
+						</li>
+						<li>
+							<p class="agc_ficon agc_fi_time"></p>
+							<a href="#" class="agc_search_word">Engineering</a>
+							<a href="#" target="_blank" class="agc_del_this"></a>
+						</li>
+						<li>
+							<p class="agc_ficon agc_fi_time"></p>
+							<a href="#" class="agc_search_word">Research article</a>
+							<a href="#" target="_blank" class="agc_del_this"></a>
+						</li>
+						<li>
+							<p class="agc_ficon agc_fi_time"></p>
+							<a href="#" class="agc_search_word">special article</a>
+							<a href="#" target="_blank" class="agc_del_this"></a>
+						</li>
+						<li>
+							<p class="agc_ficon agc_fi_time"></p>
+							<a href="#" class="agc_search_word">Engineering</a>
+							<a href="#" target="_blank" class="agc_del_this"></a>
+						</li>
+					</ul>
+					<div class="agc_search_in">
+						Full text<p></p>
+					</div><!-- agc_search_in -->
+				</div><!-- agc_hs_inner -->
+			</div><!-- agc_header_search -->
+			<!-- jinstar end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="fCheck searchChk includeCheck">
+<input type="checkbox" class="includeText" id="chkInclude" name="includeAr" value="Y"
+onclick="fn_statistics('Z106', '', '')">
+<label for="chkInclude">본문포함</label>
+</span>
+<a href="#none" class="btnDetailSearch btnModal"
+onclick="fn_statistics('A106', '', '')"
+id="#pub_modalAdvancedSearch">상세검색</a>
+</div>
+<div class="gUtil">
+<ul class="list">
+<li class="item item2">
+<a href="#"
+onclick="sslMove('/mylib/totalNodeList');fn_statistics('A107', '', '')"
+class="link mystudy">
+<span>
+내서재
+</span>
+</a>
+</li>
+<li class="item item3">
+<a href="#"
+onclick="sslMove('/member/login');fn_statistics('A102', '', '')"
+class="link alarm">
+<span>
+내소식
+</span>
+</a>
+<a href="#"
+onclick="sslMove('/member/login');fn_statistics('A102', '', '')"
+class="link alarm mobile">
+<span>
+내소식
+</span>
+</a>
+</li>
+</ul>
+</div>
+<div class="menuButton"
+onclick="fn_statistics('A149', '', '')"><span></span>
+</div>
+</div>
+</div>
+<!-- 일반 검색용 -->
+<form id="search" method="GET" action="/search/topSearch" target="_blank">
+<input type="hidden" name="startCount" value="0"/>
+<input type="hidden" name="collection" value="ALL"/>
+<input type="hidden" name="startDate" value=""/>
+<input type="hidden" name="endDate" value=""/>
+<input type="hidden" name="filter" value=""/>
+<input type="hidden" name="prefix" value=""/>
+<input type="hidden" name="range" value="A"/>
+<input type="hidden" name="searchField" value="ALL"/>
+<input type="hidden" name="sort" value="RANK"/>
+<input type="hidden" name="reQuery"/>
+<input type="hidden" name="realQuery"/>
+<input type="hidden" name="exquery" value=""/>
+<input type="hidden" name="query" value=""/>
+<input type="hidden" name="collectionQuery" value=""/>
+<input type="hidden" name="srchOption" value=""/>
+<input type="hidden" name="includeAr" value="false"/>
+<input type="hidden" name="searchOption"/>
+<input type="hidden" name="top20" value=""/>
+</form>
+<!-- 상세 검색용 -->
+<form id="detailSearch" action="/search/topSearch" method="GET">
+<input type="hidden" name="collectionQuery"/>
+<input type="hidden" name="prefix"/>
+<input type="hidden" name="filter"/>
+<input type="hidden" name="searchOption"/>
+<input type="hidden" name="srchOption" value=""/>
+</form>
+<!-- 파일 다운로드 용(테스트)
+<form id="fileDownload" action="" method="get"></form>
+-->
+</div>
+<div id="subHd" class="global-navigation">
+<div class="inner">
+<i class="before"></i>
+<div class="global-menu">
+<ul>
+<li>
+<button type="button" class="button-menu-toggle" onClick="fn_statistics_call('A224');" aria-label="메뉴 열기"></button>
+</li>
+<li>
+<button type="button" class="button-categories-toggle" onClick="fn_statistics_call('A201');"><span>주제분류</span></button>
+</li>
+<li> <a href="/curation/curationList?bestCode=BN00" onClick="fn_statistics_call('A202');"><span>Best논문</span></a></li>
+<li> <a style="" href="/journal/journal-iprd-search" onClick="fn_statistics_call('A203');"><span>저널·발행기관</span></a></li>
+</ul>
+<ul>
+<li>
+<a class="mystudy" href="#" onClick="sslMove('/mylib/totalNodeList');fn_statistics_call('A207');"><span>내서재</span></a>
+</li>
+<li><a href="/event/bene/index" onClick="fn_statistics_call('A204');"><span>회원혜택</span></a></li>
+<li><a href="#" onClick="thesisTipClick();fn_statistics_call('A205');"><span>논문작성TIP</span></a></li>
+<li><a href="http://akaroot.co.kr/" target="_blank" onClick="fn_statistics_call('A206');"><span>아카루트</span></a></li>
+</ul>
+</div>
+<div class="global-utilities">
+<ul>
+<li>
+<a href='#'
+onclick="sslMove('/member/b2bLogin');fn_statistics('A101', '', '')">
+<span>소속 기관 / 학교 인증</span></a>
+<div class="tip org--sign-before--tip b2b-top-tool-tip no-padno">
+<dl class="borra-3 backfa">
+<dd class="tool-la">
+<span class="medium">인증</span>하면 <span class="medium">논문, 학술자료 등을 </span><span class="medium color_blue">&nbsp무료로 열람</span>할 수 있어요.<br>
+<span class="medium">한국대학교, 누리자동차, 시립도서관</span> 등 나의 기관을 확인해보세요<br>
+&#40;국내 대학 90% 이상 구독 중&#41;
+</dd>
+</dl>
+</div>
+</li>
+<li>
+<a href='#' class="auth"
+onclick="sslMove('/member/login');fn_statistics('A102', '', '')"><span>로그인</span></a>
+</li>
+<li>
+<a href='#' class="auth"
+onclick="sslMove('/join/joinIndex');fn_statistics('A103', '', '')"><span>회원가입</span></a>
+</li>
+<li><a href="/notice/noticeList"
+onclick="fn_statistics('A104', '', '')"><span>고객센터</span></a></li>
+
+<li>
+<button type='button' class="button-language" aria-label='언어선택'
+onclick="resolveLocal();fn_statistics('A142', '', '')"></button>
+</li>
+</ul>
+</div>
+<i class="after"></i>
+</div>
+<div class="menu-toggle">
+<nav class="inner">
+<ul>
+<li>
+<strong>주제분류</strong>
+<ol>
+<li>
+<button type="button" class="button-secondary-toggle active"><span>사회과학</span></button>
+<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: 180px; height: 408px;"><ol class="category-secondary active" style="overflow: hidden; width: 180px; height: 408px;">
+<li><a href="/subject/subjectList?subjCode=NB01"><span>경영학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB14"><span>경제학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB02"><span>관광학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB03"><span>교육학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB04"><span>군사학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB15"><span>무역학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB05"><span>문헌정보학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB07"><span>법학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB00"><span>사회과학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB16"><span>사회복지학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB08"><span>사회학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB09"><span>신문방송학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB10"><span>심리과학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB11"><span>정치외교학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB12"><span>지리/지역개발학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB17"><span>지역학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB13"><span>행정학</span></a></li>
+</ol><div class="slimScrollBar" style="background: rgba(0, 0, 0, 0.3); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: block; border-radius: 7px; z-index: 99; right: 1px; height: 207.96px;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div></div>
+</li>
+<li>
+<button type="button" class="button-secondary-toggle"><span>공학</span></button>
+<ol class="category-secondary">
+<li><a href="/subject/subjectList?subjCode=ND01"><span>건축공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND00"><span>공학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND02"><span>기계공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND03"><span>산업공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND05"><span>자원/재료공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND07"><span>전자/제어계측공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND08"><span>전자/정보통신공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND09"><span>조선/해양공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND13"><span>컴퓨터학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND10"><span>토목/환경공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND12"><span>항공우주공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND11"><span>화학/생물공학</span></a></li>
+</ol>
+</li>
+<li>
+<button type="button" class="button-secondary-toggle"><span>자연과학</span></button>
+<ol class="category-secondary" style="overflow: hidden; width: 180px; height: 408px;">
+<li><a href="/subject/subjectList?subjCode=NC01"><span>물리학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC02"><span>생물학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC03"><span>생활과학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC04"><span>수학/통계학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC00"><span>자연과학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC05"><span>전문/지구과학</span></a></li>
+</ol>
+</li>
+<li>
+<button type="button" class="button-secondary-toggle"><span>의약학</span></button>
+<ol class="category-secondary" style="overflow: hidden; width: 180px; height: 408px;">
+<li><a href="/subject/subjectList?subjCode=NE01"><span>간호학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE02"><span>수의학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE03"><span>약학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE04"><span>의학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE00"><span>의학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE05"><span>치의학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE06"><span>한의학</span></a></li>
+</ol>
+</li>
+<li>
+<button type="button" class="button-secondary-toggle"><span>인문학</span></button>
+<ol class="category-secondary" style="overflow: hidden; width: 180px; height: 408px;">
+<li><a href="/subject/subjectList?subjCode=NA12"><span>독일어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA14"><span>러시아어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA05"><span>문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA04"><span>언어학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA01"><span>역사학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA10"><span>영어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA00"><span>인문학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA08"><span>일본어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA03"><span>종교학/신학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA07"><span>중국어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA02"><span>철학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA11"><span>프랑스어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA06"><span>한국어문학</span></a></li>
+</ol>
+</li>
+<li>
+<button type="button" class="button-secondary-toggle"><span>예술체육학</span></button>
+<ol class="category-secondary" style="overflow: hidden; width: 180px; height: 408px;">
+<li><a href="/subject/subjectList?subjCode=NG01"><span>건축</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG02"><span>디자인</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG03"><span>무용</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG04"><span>미술</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG05"><span>미용</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG06"><span>사진</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG07"><span>연극</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG08"><span>영화</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG00"><span>예술체육학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG09"><span>음악</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG10"><span>의상</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG11"><span>체육</span></a></li>
+</ol>
+</li>
+<li>
+<button type="button" class="button-secondary-toggle"><span>농수해양학</span></button>
+<ol class="category-secondary" style="overflow: hidden; width: 180px; height: 408px;">
+<li><a href="/subject/subjectList?subjCode=NF00"><span>농수해양학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF01"><span>농학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF02"><span>수산학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF03"><span>식품과학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF04"><span>임학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF06"><span>축산학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF07"><span>해상운송학</span></a></li>
+</ol>
+</li>
+<li>
+<button type="button" class="button-secondary-toggle"><span>복합학</span></button>
+<ol class="category-secondary" style="overflow: hidden; width: 180px; height: 408px;">
+<li><a href="/subject/subjectList?subjCode=NH02"><span>과학기술학/기술정책</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NH03"><span>뇌/인지과학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NH05"><span>여성학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NH00"><span>학제간연구</span></a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<strong><a href="/curation/curationList?bestCode=BN00" onClick="fn_statistics_call('A209');">Best논문</a></strong>
+<ol>
+<li><a href="/curation/curationList?bestCode=CE" onClick="fn_statistics_call('A210');"><span>주간 급상승</span></a></li>
+<li><a href="/curation/curationList?bestCode=BN00" onClick="fn_statistics_call('A211');"><span>그룹별 Best</span></a></li>
+<li><a href="/curation/curationList?bestCode=NA" onClick="fn_statistics_call('A212');"><span>주제별 Best</span></a></li>
+<li><a href="/curation/curationList?bestCode=CF" onClick="fn_statistics_call('A213');"><span>취업 비법 논문</span></a></li>
+<li><a href="/curation/curationList?bestCode=CC" onClick="fn_statistics_call('A214');"><span>세상의 모든 지식</span></a></li>
+<li><a href="/curation/curationList?bestCode=CD" onClick="fn_statistics_call('A215');"><span>3분 논문</span></a></li>
+</ol>
+</li>
+<li>
+<strong style=""><a href="/journal/journal-iprd-search" onClick="fn_statistics_call('A223');">저널∙발행기관</a></strong>
+<a href="https://chrome.google.com/webstore/detail/dbpia/odgmdojokcjkabaafmajcoacjkknlgnk" target="_blank" onClick="fn_statistics_call('A218');"><span>크롬 서지관리 다운로드</span></a>
+</li>
+<li>
+<dl>
+<dt id="menu-benefit" class=""><a href="/event/bene/index" onClick="fn_statistics_call('A216');">회원혜택</a></dt>
+<dd data-menu-item="#menu-benefit"><a href="/event/bene/index" onClick="fn_statistics_call('A216');">로그인 회원이 가져갈 수 있는 혜택들을 확인하고 이용하세요.</a></dd>
+<dt id="menu-tip" class=""><a href="#" onClick="thesisTipClick();fn_statistics_call('A222');">논문작성TIP</a></dt>
+<dd data-menu-item="#menu-tip"><a href="#" onClick="thesisTipClick();fn_statistics_call('A222');">&lt;논문을 쓰기 전에 당신이 알아야 할 10가지&gt; 강의 영상을 무료로 보실 수 있어요.</a>
+</dd>
+<dt id="menu-akaroot" class=""><a href="http://akaroot.co.kr/" target="_blank" onClick="fn_statistics_call('A217');">아카루트</a></dt>
+<dd data-menu-item="#menu-akaroot"><a href="http://akaroot.co.kr/" target="_blank" onClick="fn_statistics_call('A217');">학술연구/단체지원/교육 등 연구자 활동을 지속하도록 DBpia가 지원하고 있어요.</a>
+</dd>
+</dl>
+<div class="group-button">
+<a href="/notice/noticeList" onClick="fn_statistics_call('A219');"><span>고객센터</span></a>
+<a href="#" onClick="fnContact();fn_statistics_call('A220');"><span>제휴문의</span></a>
+</div>
+</li>
+</ul>
+</nav>
+</div>
+<div class="category-toggle">
+<div class="category-title">
+<em>주제분류</em>
+</div>
+<nav>
+<ol>
+<li>
+<button type="button" class="button-category-toggle button-menu-default active" data-category="#social-science"><span>사회과학</span></button>
+</li>
+<li>
+<button type="button" class="button-category-toggle" data-category="#engineering"><span>공학</span></button>
+</li>
+<li>
+<button type="button" class="button-category-toggle" data-category="#natural-science"><span>자연과학</span></button>
+</li>
+<li>
+<button type="button" class="button-category-toggle" data-category="#medicine-pharmacy"><span>의약학</span></button>
+</li>
+<li>
+<button type="button" class="button-category-toggle" data-category="#humanities"><span>인문학</span></button>
+</li>
+<li>
+<button type="button" class="button-category-toggle" data-category="#art-physical"><span>예술체육학</span></button>
+</li>
+<li>
+<button type="button" class="button-category-toggle" data-category="#agricultural-marine"><span>농수해양학</span></button>
+</li>
+<li>
+<button type="button" class="button-category-toggle" data-category="#interdisciplinary-science"><span>복합학</span></button>
+</li>
+</ol>
+</nav>
+<div class="category-list">
+<ol class="category-secondary active category-secondary-default" id="social-science">
+<li><a href="/subject/subjectList?subjCode=NB01"><span>경영학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB14"><span>경제학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB02"><span>관광학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB03"><span>교육학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB04"><span>군사학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB15"><span>무역학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB05"><span>문헌정보학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB07"><span>법학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB00"><span>사회과학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB16"><span>사회복지학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB08"><span>사회학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB09"><span>신문방송학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB10"><span>심리과학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB11"><span>정치외교학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB12"><span>지리/지역개발학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB17"><span>지역학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB13"><span>행정학</span></a></li>
+</ol>
+<ol class="category-secondary" id="engineering">
+<li><a href="/subject/subjectList?subjCode=ND01"><span>건축공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND00"><span>공학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND02"><span>기계공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND03"><span>산업공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND05"><span>자원/재료공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND07"><span>전자/제어계측공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND08"><span>전자/정보통신공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND09"><span>조선/해양공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND13"><span>컴퓨터학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND10"><span>토목/환경공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND12"><span>항공우주공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND11"><span>화학/생물공학</span></a></li>
+</ol>
+<ol class="category-secondary" id="natural-science">
+<li><a href="/subject/subjectList?subjCode=NC01"><span>물리학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC02"><span>생물학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC03"><span>생활과학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC04"><span>수학/통계학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC00"><span>자연과학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC05"><span>전문/지구과학</span></a></li>
+</ol>
+<ol class="category-secondary" id="medicine-pharmacy">
+<li><a href="/subject/subjectList?subjCode=NE01"><span>간호학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE02"><span>수의학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE03"><span>약학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE04"><span>의학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE00"><span>의학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE05"><span>치의학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE06"><span>한의학</span></a></li>
+</ol>
+<ol class="category-secondary" id="humanities">
+<li><a href="/subject/subjectList?subjCode=NA12"><span>독일어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA14"><span>러시아어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA05"><span>문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA04"><span>언어학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA01"><span>역사학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA10"><span>영어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA00"><span>인문학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA08"><span>일본어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA03"><span>종교학/신학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA07"><span>중국어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA02"><span>철학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA11"><span>프랑스어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA06"><span>한국어문학</span></a></li>
+</ol>
+<ol class="category-secondary" id="art-physical">
+<li><a href="/subject/subjectList?subjCode=NG01"><span>건축</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG02"><span>디자인</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG03"><span>무용</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG04"><span>미술</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG05"><span>미용</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG06"><span>사진</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG07"><span>연극</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG08"><span>영화</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG00"><span>예술체육학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG09"><span>음악</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG10"><span>의상</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG11"><span>체육</span></a></li>
+</ol>
+<ol class="category-secondary" id="agricultural-marine">
+<li><a href="/subject/subjectList?subjCode=NF00"><span>농수해양학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF01"><span>농학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF02"><span>수산학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF03"><span>식품과학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF04"><span>임학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF06"><span>축산학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF07"><span>해상운송학</span></a></li>
+</ol>
+<ol class="category-secondary" id="interdisciplinary-science">
+<li><a href="/subject/subjectList?subjCode=NH02"><span>과학기술학/기술정책</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NH03"><span>뇌/인지과학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NH05"><span>여성학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NH00"><span>학제간연구</span></a></li>
+</ol>
+</div>
+</div>
+</div>
+<div id="pub_modalAdvancedSearch" class="modal" style="max-width:700px;">
+<span class="modalScreen opacity"></span>
+<div class="modalContent">
+<div class="modalHeader">
+<p class="tit">상세검색</p>
+<button class="closeModal" id="#pub_modalAdvancedSearch"><span class="blind">닫기</span></button>
+</div>
+<div class="modalBody type07 eToggleSection">
+<h5 class="mb1">
+검색어 입력
+<span class="desc">검색어는 최대 5개까지 추가하실 수 있습니다.</span>
+<button type="button" class="btn btnText darkGrayColor medium btnLine fs12 btnMultiLangInput">
+<span>다국어입력</span></button>
+</h5>
+<form name="form" id="topfrm">
+<div class="multiLangInputBox eHideSec" id="topinfodiv">
+<table>
+<tbody>
+<tr>
+<td style="height:31px;" class="small" align="absmiddle">
+<table>
+<tbody>
+<tr>
+<td class="small" style="height:22px; vertical-align:middle; text-align:left;">
+<input type="text" name="data_list" id="data_list" class="batang_text"/>
+<span id="data_list1"></span>
+<input type="hidden" name="sta_code" id="multi_code" value="1"/>
+<a href="javascript:write_info();"
+style="margin-left:5px;margin-top:0px;"><img
+src="/images/language/language_btn_ok.gif" width="42" height="20"
+border="0" align="absmiddle"
+alt="입력"
+title="입력"></a>
+<a href="javascript:clear_field();" style="margin-left:5px;margin-top:0px;"><img
+src="/images/language/language_btn_del.gif" width="52" height="20"
+border="0" align="absmiddle"
+alt="삭제"
+title="삭제"></a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="small"
+style="height:25px; background:url(/images/language/3rd_tab_bg.gif) repeat;">
+<div id="menu_tab">
+<table style="height:25px;">
+<tbody>
+<tr style="text-align:center;">
+<td style="width:11px; background:url(/images/language/3rd_tab_over1.gif) no-repeat;"></td>
+<td class="small"
+style="padding-top:6px; background:url(/images/language/3rd_tab_over2.gif) repeat;">
+<a href="javascript:go_menu(1);" class="default"><strong>한자 음가로 찾기</strong></a></td>
+<td style="width:11px; background:url(/images/language/3rd_tab_over3.gif) no-repeat;"></td>
+<td style="width:1px;"></td>
+<td style="width:11px; background:url(/images/language/3rd_tab_1.gif) no-repeat;"></td>
+<td class="small"
+style="padding-top:6px; background:url(/images/language/3rd_tab_2.gif) repeat;">
+<a href="javascript:go_menu(2);" class="default">한자 부수로 찾기</a></td>
+<td style="width:11px; background:url(/images/language/3rd_tab_3.gif) no-repeat;"></td>
+<td style="width:1px;"></td>
+<td style="width:11px; background:url(/images/language/3rd_tab_1.gif) no-repeat;"></td>
+<td class="small"
+style="padding-top:6px; background:url(/images/language/3rd_tab_2.gif) repeat;">
+<a href="javascript:go_menu(3);" class="default">러시아어</a></td>
+<td style="width:11px; background:url(/images/language/3rd_tab_3.gif) no-repeat;"></td>
+<td style="width:1px;"></td>
+<td style="width:11px; background:url(/images/language/3rd_tab_1.gif) no-repeat;"></td>
+<td class="small"
+style="padding-top:6px; background:url(/images/language/3rd_tab_2.gif) repeat;">
+<a href="javascript:go_menu(4);" class="default">옛한글</a></td>
+<td style="width:11px; background:url(/images/language/3rd_tab_3.gif) no-repeat;"></td>
+<td style="width:1px;"></td>
+<td style="width:11px; background:url(/images/language/3rd_tab_1.gif) no-repeat;"></td>
+<td class="small"
+style="padding-top:6px; background:url(/images/language/3rd_tab_2.gif) repeat;">
+<a href="javascript:go_menu(5);" class="default">일본어</a></td>
+<td style="width:11px; background:url(/images/language/3rd_tab_3.gif) no-repeat;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td style="height:18px;"></td>
+</tr>
+<tr>
+<td>
+<div id="view_eumga">
+<a href="javascript:get_page('ga');" class="left1">가</a>
+<a href="javascript:get_page('na');" class="left1">나</a>
+<a href="javascript:get_page('da');" class="left1">다</a>
+<a href="javascript:get_page('la');" class="left1">라</a>
+<a href="javascript:get_page('ma');" class="left1">마</a>
+<a href="javascript:get_page('ba');" class="left1">바</a>
+<a href="javascript:get_page('sa');" class="left1">사</a>
+<a href="javascript:get_page('ah');" class="left1">아</a>
+<a href="javascript:get_page('ja');" class="left1">자</a>
+<a href="javascript:get_page('ca');" class="left1">차</a>
+<a href="javascript:get_page('ka');" class="left1">카</a>
+<a href="javascript:get_page('ta');" class="left1">타</a>
+<a href="javascript:get_page('pa');" class="left1">파</a>
+<a href="javascript:get_page('ha');" class="left1">하</a>
+</div>
+</td>
+</tr>
+<tr>
+<td style="height:10px;"></td>
+</tr>
+<tr>
+<td>
+<div id="view_sub">
+</div>
+</td>
+</tr>
+<tr>
+<td style="height:10px;"></td>
+</tr>
+<tr>
+<td class="large">
+<div id="insert_list">
+</div>
+</td>
+</tr>
+<tr>
+<td style="height:20px;"></td>
+</tr>
+<tr>
+<td style="height:1px; background:#d7d7d7;"></td>
+</tr>
+<tr>
+<td style="height:10px;"></td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<div id="info_view">
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="advancedSearchBox">
+<ul id="pub_advancedSearchBox">
+<li>
+<span class="fSelect">
+<label>
+<span>전체</span>
+<select title="범위"
+name="select_search">
+<option value="*" selected="selected">전체</option>
+<option value="NODE_NM_2">논문명</option>
+<option value="SRCH_PLCT_NM">저널명</option>
+<option value="SRCH_IPRD_NM">발행기관명</option>
+<option value="SRCH_AUTR_NM">저자명</option>
+</select>
+</label>
+</span>
+<span class="gInputText">
+<input type="text" class="fText dev_input"
+placeholder="검색어를 입력하세요."/>
+</span>
+<span class="fSelect">
+<label>
+<span>AND</span>
+<select title="조건"
+name="search_option">
+<option value=" ">AND</option>
+<option value="|">OR</option>
+<option value="!">AND NOT</option>
+</select>
+</label>
+</span>
+<button type="button" class="btn btnIcon subColor plus" id="pub_btnAddRowAdvanced">
+<span>추가</span>
+</button>
+</li>
+<li>
+<span class="fSelect">
+<label>
+<span>전체</span>
+<select title="범위"
+name="select_search">
+<option value="*" selected="selected">전체</option>
+<option value="NODE_NM_2">논문명</option>
+<option value="SRCH_PLCT_NM">저널명</option>
+<option value="SRCH_IPRD_NM">발행기관명</option>
+<option value="SRCH_AUTR_NM">저자명</option>
+</select>
+</label>
+</span>
+<span class="gInputText">
+<input type="text" class="fText dev_input"
+placeholder="검색어를 입력하세요."/>
+</span>
+<span class="fSelect">
+<label>
+<span>AND</span>
+<select title="조건"
+name="search_option">
+<option value=" ">AND</option>
+<option value="|">OR</option>
+<option value="!">AND NOT</option>
+</select>
+</label>
+</span>
+<button type="button" class="btn btnIcon subColor minus" id="pub_btnRemoveRowAdvanced">
+<span>삭제</span></button>
+</li>
+</ul>
+</div>
+<div class="advancedCateBox">
+<p class="tit">언어</p>
+<ul class="checkBox">
+<li>
+<span class="fCheck">
+<input type="checkbox" name="lang" id="pub_cate_lang_check_01" value="all"/>
+<label for="pub_cate_lang_check_01">전체</label>
+</span>
+</li>
+<li>
+<span class="fCheck">
+<input type="checkbox" name="lang" id="pub_cate_lang_check_02" value="한국어"/>
+<label for="pub_cate_lang_check_02">한국어</label>
+</span>
+</li>
+<li>
+<span class="fCheck">
+<input type="checkbox" name="lang" id="pub_cate_lang_check_03" value="영어"/>
+<label for="pub_cate_lang_check_03">영어</label>
+</span>
+</li>
+<li>
+<span class="fCheck">
+<input type="checkbox" name="lang" id="pub_cate_lang_check_04" value="중국어"/>
+<label for="pub_cate_lang_check_04">중국어</label>
+</span>
+</li>
+<li>
+<span class="fCheck">
+<input type="checkbox" name="lang" id="pub_cate_lang_check_05" value="일본어"/>
+<label for="pub_cate_lang_check_05">일본어</label>
+</span>
+</li>
+<li>
+<span class="fCheck">
+<input type="checkbox" name="lang" id="pub_cate_lang_check_06" value="etc"/>
+<label for="pub_cate_lang_check_06">기타</label>
+</span>
+</li>
+</ul>
+</div>
+<div class="advancedCateBox">
+<p class="tit">서비스 중지 콘텐츠</p>
+<ul class="checkBox">
+<li>
+<span class="fCheck">
+<input type="checkbox" id="pub_cate_stop_check_01" name="svc_yn" value="Y"/>
+<label for="pub_cate_stop_check_01">제외</label>
+</span>
+</li>
+</ul>
+</div>
+<div class="advancedCateBox">
+<p class="tit">이용형태</p>
+<ul class="checkBox">
+<li>
+<span class="fCheck">
+<input type="checkbox" id="pub_cate_type_check_01" name="use_yn" value="Y"/>
+<label for="pub_cate_type_check_01">원문이용</label>
+</span>
+</li>
+<li>
+<span class="fCheck">
+<input type="checkbox" id="pub_cate_type_check_02" name="use_yn" value="N"/>
+<label for="pub_cate_type_check_02">서지이용</label>
+</span>
+</li>
+</ul>
+</div>
+</form>
+</div>
+<div class="modalFooter" id="pub_modalFooter">
+<button type="button" class="btn btnIconB noLine btnReset">
+<span class="reset" id="dev_srch_reset">검색값 초기화</span>
+</button>
+<button type="button" class="btn btnText pointColor large closeModal"
+onclick="search_dsend();fn_statistics('Z204', '', '')"
+id="#pub_modalAdvancedSearch"><span>검색</span>
+</button>
+</div>
+</div>
+</div>
+<div id="pub_modalChangePwRegular" class="modal" style="max-width:526px;">
+<span class="modalScreen"></span>
+<div class="modalContent">
+<div class="modalHeader">
+<p class="tit">비밀번호 변경 안내</p>
+<button class="closeModal" id="#pub_modalChangePwRegular"><span class="blind">닫기</span></button>
+</div>
+<div class="modalBody">
+<p class="comtBox">
+비밀번호를 변경하신 지 90일 이상 지났습니다.<br/>개인정보 보호를 위해 비밀번호를 변경해 주세요.
+</p>
+</div>
+<div class="modalFooter halfBtn">
+<button onClick="chgNext()" class="btn btnText subColor large"><span>다음에 변경하기</span></button>
+<button onClick="chgNow()" class="btn btnText mainColor large btnConfirm"><span>지금 변경하기</span></button>
+</div>
+</div>
+</div>
+<div id="pub_modalChangePwRegular2" class="modal" style="max-width:526px;">
+<span class="modalScreen"></span>
+<div class="modalContent">
+<div class="modalHeader">
+<p class="tit">비밀번호 변경 안내</p>
+<button class="closeModal" id="#pub_modalChangePwRegular2" onClick="fnReloadModal();"><span
+class="blind">닫기</span></button>
+</div>
+<div class="modalBody">
+<p class="comtBox">
+비밀번호를 변경하신 지 90일 이상 지났습니다.<br/>개인정보 보호를 위해 비밀번호를 변경해 주세요.
+</p>
+</div>
+<div class="modalFooter halfBtn">
+<button onClick="fnReloadModal();" class="btn btnText subColor large"><span>다음에 변경하기</span></button>
+<button onClick="chgNow()" class="btn btnText mainColor large btnConfirm"><span>지금 변경하기</span></button>
+</div>
+</div>
+</div>
+<div id="alarmDetail" class="modal" style="max-width:685px;">
+<span class="modalScreen"></span>
+<div class="modalContent">
+<div class="modalHeader">
+<button class="closeModal" id="#alarmDetail"><span class="blind">닫기</span></button>
+</div>
+<div class="modalBody">
+</div>
+<div class="modalFooter halfBtn">
+</div>
+</div>
+</div>
+<div id="pub_modalDownloadEvent" class="modal" style="max-width: 526px; display: none;">
+<div class="modalContent">
+<span class="modalScreen opacity"></span>
+<div class="modalHeader">
+<p class="tit">간편 교외 인증 이벤트 응모</p>
+<button class="closeModal" id="#pub_modalDownloadEvent"><span class="blind">닫기</span></button>
+</div>
+<div class="modalBody type02">
+<div class="formGroup">
+<p class="tit">이름</p>
+<ul>
+<li>
+<span class="gInputText w100per">
+<input name="userName" id="userName" type="text" class="fText" maxlength="30"/>
+</span>
+</li>
+</ul>
+</div>
+<div class="formGroup">
+<p class="tit">전화번호</p>
+<ul>
+<li>
+<span class="gInputText w100per">
+<input name="userPhone" id="userPhone" type="text" class="fText" maxlength="11"
+onKeyDown="onlyNumber(event)"/>
+</span>
+</li>
+</ul>
+</div>
+<div class="tableLayout"></div>
+<div class="downloadBox">
+<p class="tit">개인정보 활용 동의</p>
+<div class="gInputText w100per borderLine">
+<textarea cols="50" rows="6" name="privacy" id="privacy" class="fTextarea w100per"
+readonly="readonly">누리미디어는 개인정보 관련 법률(개인정보보호법, 정보통신망 이용촉진 및 정보보호에 관한 법률)을 준수하며 수집된 개인 정보는 해당 서비스 외에 다른 용도로 절대 사용하지 않으며, 사용자 요청 시 바로 삭제할 수 있습니다.
+
+1. 수집항목 및 이용목적
+- 수집항목: 이름, 전화번호, 개인정보 활용 동의
+- 이용목적: 이벤트 참여
+
+2. 보유 및 이용기간
+- 이벤트 종료 1개월 후 삭제처리
+- 이벤트 종료일 : 2020.05.15
+
+귀하는 개인정보 제공에 동의하지 않으실 권리가 있습니다.
+단, 개인정보 제공에 동의하지 않을 경우
+이벤트 참여를 하실 수 없습니다.
+
+그 밖의 사항은 개인정보취급방침을 준수합니다.
+
+개인정보 수집 및 이용에 대한 안내를 이해하였으며, 개인정보 제공에 동의하십니까?
+</textarea>
+</div>
+</div>
+<div class="etcSpace">
+<div class="Right">
+<span class="warn">개인정보 처리방침에 동의해주세요</span>
+<input type="checkbox" id="agreeContract" checked="checked">
+<label for="agreeContract"> 개인정보 처리방침에 동의</label>
+</div>
+</div>
+</div>
+<div class="modalFooter" id="pub_modalFooter">
+<button type="button" class="btn btnText subColor large closeModal" id=""><span>취소</span></button>
+<button type="button" class="btn btnText mainColor large" id="" name="btnDoneEventModal">
+<span>확인</span></button>
+</div>
+</div>
+</div>
+</div><!-- 헤더 (끝) -->
+
+
+
+
+
+
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700&display=swap" rel="stylesheet">
+<!-- jinstar 본문 없음-->
+
+<div style="height:1000px;"></div>
+
+
+
+
+
+</div>
+</body>
+</html>

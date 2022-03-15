@@ -1,0 +1,2038 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>    
+<meta name="naver-site-verification" content="ce032d986bf7a6b25ebf9bfda6f3d37e499dd407"/>
+<!-- End Naver  -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport"
+content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>논문 보기</title>
+<link rel="icon" href="/images/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="https://www.dbpia.co.kr/css/common.min.css?ver=20220128-05"/>
+<link rel="stylesheet" type="text/css" href="https://www.dbpia.co.kr/css/layout.min.css?ver=20220128-05"/>
+<link rel="stylesheet" type="text/css" href="https://www.dbpia.co.kr/css/jquery-ui-1.12.1.css"/>
+<link rel="stylesheet" type="text/css" href="https://www.dbpia.co.kr/css/jquery-ui.structure.css"/>
+<link rel="stylesheet" type="text/css" href="/assets/mloading/jquery.mloading.css"/>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/jquery-ui-1.12.1.min.js"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/common.js?ver=20220128-05"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/search.js?ver=20220128-05"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/assets/mloading/jquery.mloading.js"></script>
+<link rel="stylesheet" type="text/css" href="https://www.dbpia.co.kr/css/content.service.css"/>
+<div id="skipNavigation">
+<a href="#contents">본문 바로가기</a>
+</div>
+<!-- 모바일 내비게이션 (시작) -->
+<div class="mobileNavgation" id="mobile">
+</div><!-- 모바일 내비게이션 (끝) -->
+<div class="wrap serviceP">
+<input type="hidden" id="dev_page" value="1">
+<input type="hidden" id="dev_pageCount" value="10">
+<input type="hidden" id="dev_data_index" value="0">
+<!-- 헤더 (시작) -->
+<div class="header" id="header"> 
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/multi_language.js?ver=20220128-05"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/dev_common.js?ver=20220128-05"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/search.js?ver=20220128-05"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/nuri_Statistics.js?ver=20220128-05"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/navigation.js?ver=20220128-05"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/new.js?ver=20220128-05"></script>
+<script type="text/javascript" src="https://www.dbpia.co.kr/js/topbanner/top_banner.min.js?ver=20220128-05"></script>
+<link rel="stylesheet" type="text/css" href="https://www.dbpia.co.kr/css/navigation.min.css?ver=20220128-05">
+<div class="bnHead" id="bnHead">
+<div class="mobileNavgation">
+<nav class="menuPanel">
+<div class="menuHead">
+<p class="login" id="pub_login_moblie">
+<a href="#"
+onclick="fn_statistics('A102', '', '');sslMove('/member/login')">
+</a>
+</p>
+<button type='button' class="button-menu-close" aria-label='메뉴 닫기'></button>
+</div>
+<div class="menuBody">
+<ul class="menu">
+<li class="label eToggleSectionMobile">
+<a href="/member/b2bLogin" class="nom m_adduct">소속 기관 / 학교 인증</a>
+</li>
+<li class="label eToggleSectionMobile">
+<a href="/member/login" class="nom mainColor">로그인</a>
+</li>
+<li class="label eToggleSectionMobile">
+<a href="/join/joinAgree" class="nom">회원가입</a>
+</li>
+<li class="label eToggleSectionMobile">
+<a href="#none" class="mm m03">
+고객센터
+</a>
+<ul class="list eHideSecMobile" style="display: none;">
+<li class="item">
+<a href="/intro/dbpia"
+onclick="fn_statistics('A135', '', '')"
+class="sm">
+DBpia 소개
+</a>
+</li>
+<li class="item">
+<a href="/notice/userGuide"
+onclick="fn_statistics('A136', '', '')"
+class="sm">
+이용안내
+</a>
+</li>
+<li class="item">
+<a href="/notice/noticeList"
+onclick="fn_statistics('A137', '', '')"
+class="sm">
+공지사항
+</a></li>
+<li class="item">
+<a href="/notice/newsList"
+onclick="fn_statistics('A138', '', '')"
+class="sm">
+학회소식
+</a>
+</li>
+<li class="item">
+<a href="/trial/trial"
+onclick="fn_statistics('A139', '', '')"
+class="sm">
+트라이얼신청
+</a>
+</li>
+<li class="item">
+<a href="/faq/faqList"
+onclick="fn_statistics('A140', '', '')"
+class="sm">
+FAQ
+</a>
+</li>
+</ul>
+</li>
+<li class="label">
+<a href="/mypage/informSetting" class="mm">내소식</a>
+</li>
+</ul>
+</div>
+<div class="menuFoot">
+<div class="gRight">
+<a href="#" class="lang_ico"
+onclick="resolveLocal();fn_statistics('A142', '', '')"></a>
+</div>
+</div>
+</nav>
+<div class="menuPanelOverlay" style="display: none;"></div>
+</div>
+<div class="notification" id="pub_notification" style="display: none;">
+<div class="inner">
+<div class="txtWrap">
+<span class="txtBold">(이)가 구독하지 않는 논문으로 ‘미리보기’만 가능합니다.</span>
+<span>도서관의 ‘원문복사 서비스’를 통해 원문을 이용하실 수 있습니다. 원문복사 서비스 이용방법은 도서관 사이트를 확인해 주세요.</span>
+<a href="#" onclick="">원문복사 서비스 이용하기</a>
+</div>
+</div>
+</div>
+<div class="inner">
+<div class="hdWrap">
+<h1 class="logo">
+<a href="javascript:location.href='/';fn_statistics('A141', '', '')"
+id="aTopLogoImg">
+<span class="blind">DBpia</span>
+</a>
+</h1>
+<div class="gSearch">
+<div class="searchFrom">
+<span class="fSelect">
+<label>
+<span>
+전체
+</span>
+<select id="dev_srchOpt"
+title="검색 필드 선택">
+<option value="*">전체</option>
+<option value="NODE_NM_2">논문명</option>
+<option value="NODE_NM_2 | NODE_ABST">논문명+초록</option>
+<option value="SRCH_AUTR_NM | SRCH_AUTR_NM_2 | AUTR_NM_2 | AUTR_NM_3">저자명</option>
+<option value="SRCH_NODE_KYWD">키워드명</option>
+</select>
+</label>
+</span>
+<span class="gInputText">
+<span class="placeholder">
+키워드, 저널, 학회, 저자 등을 입력해 주세요.
+</span>
+<input type="search" id="keyword" class="search" autocomplete="off"
+title="키워드 검색" required/>
+<button type='reset' class="button-search-cancel" aria-label="키워드 삭제"></button>
+</span>
+<a href="#none" class="btnSearch"
+onclick="searchGo();fn_statistics('A105', '', '')"></a>
+</div>
+<div class="atcmpLayer" id="pub_atcmpLayer">
+<ul class="atcmpList"></ul>
+</div>
+<span class="fCheck searchChk includeCheck">
+<input type="checkbox" class="includeText" id="chkInclude" name="includeAr" value="Y"
+onclick="fn_statistics('Z106', '', '')">
+<label for="chkInclude">본문포함</label>
+</span>
+<a href="#none" class="btnDetailSearch btnModal"
+onclick="fn_statistics('A106', '', '')"
+id="#pub_modalAdvancedSearch">상세검색</a>
+</div>
+<div class="gUtil">
+<ul class="list">
+<li class="item item2">
+<a href="#"
+onclick="sslMove('/mylib/totalNodeList');fn_statistics('A107', '', '')"
+class="link mystudy">
+<span>
+내서재
+</span>
+</a>
+</li>
+<li class="item item3">
+<a href="#"
+onclick="sslMove('/member/login');fn_statistics('A102', '', '')"
+class="link alarm">
+<span>
+내소식
+</span>
+</a>
+<a href="#"
+onclick="sslMove('/member/login');fn_statistics('A102', '', '')"
+class="link alarm mobile">
+<span>
+내소식
+</span>
+</a>
+</li>
+</ul>
+</div>
+<div class="menuButton"
+onclick="fn_statistics('A149', '', '')"><span></span>
+</div>
+</div>
+</div>
+<!-- 일반 검색용 -->
+<form id="search" method="GET" action="/search/topSearch" target="_blank">
+<input type="hidden" name="startCount" value="0"/>
+<input type="hidden" name="collection" value="ALL"/>
+<input type="hidden" name="startDate" value=""/>
+<input type="hidden" name="endDate" value=""/>
+<input type="hidden" name="filter" value=""/>
+<input type="hidden" name="prefix" value=""/>
+<input type="hidden" name="range" value="A"/>
+<input type="hidden" name="searchField" value="ALL"/>
+<input type="hidden" name="sort" value="RANK"/>
+<input type="hidden" name="reQuery"/>
+<input type="hidden" name="realQuery"/>
+<input type="hidden" name="exquery" value=""/>
+<input type="hidden" name="query" value=""/>
+<input type="hidden" name="collectionQuery" value=""/>
+<input type="hidden" name="srchOption" value=""/>
+<input type="hidden" name="includeAr" value="false"/>
+<input type="hidden" name="searchOption"/>
+<input type="hidden" name="top20" value=""/>
+</form>
+<!-- 상세 검색용 -->
+<form id="detailSearch" action="/search/topSearch" method="GET">
+<input type="hidden" name="collectionQuery"/>
+<input type="hidden" name="prefix"/>
+<input type="hidden" name="filter"/>
+<input type="hidden" name="searchOption"/>
+<input type="hidden" name="srchOption" value=""/>
+</form>
+<!-- 파일 다운로드 용(테스트)
+<form id="fileDownload" action="" method="get"></form>
+-->
+</div>
+<div id="subHd" class="global-navigation">
+<div class="inner">
+<i class="before"></i>
+<div class="global-menu">
+<ul>
+<li>
+<button type="button" class="button-menu-toggle" onclick="fn_statistics_call('A224');" aria-label="메뉴 열기"></button>
+</li>
+<li>
+<button type="button" class="button-categories-toggle" onclick="fn_statistics_call('A201');"><span>주제분류</span></button>
+</li>
+<li> <a href="/curation/curationList?bestCode=BN00" onclick="fn_statistics_call('A202');"><span>Best논문</span></a></li>
+<li> <a style="" href="/journal/journal-iprd-search" onclick="fn_statistics_call('A203');"><span>저널·발행기관</span></a></li>
+</ul>
+<ul>
+<li>
+<a class="mystudy" href="#" onclick="sslMove('/mylib/totalNodeList');fn_statistics_call('A207');"><span>내서재</span></a>
+</li>
+<li><a href="/event/bene/index" onclick="fn_statistics_call('A204');"><span>회원혜택</span></a></li>
+<li><a href="#" onclick="thesisTipClick();fn_statistics_call('A205');"><span>논문작성TIP</span></a></li>
+<li><a href="http://akaroot.co.kr/" target="_blank" onclick="fn_statistics_call('A206');"><span>아카루트</span></a></li>
+</ul>
+</div>
+<div class="global-utilities">
+<ul>
+<li>
+<a href='#'
+onclick="sslMove('/member/b2bLogin');fn_statistics('A101', '', '')">
+<span>소속 기관 / 학교 인증</span></a>
+<div class="tip org--sign-before--tip b2b-top-tool-tip no-padno">
+<dl class="borra-3 backfa">
+<dd class="tool-la">
+<span class="medium">인증</span>하면 <span class="medium">논문, 학술자료 등을 </span><span class="medium color_blue">&nbsp무료로 열람</span>할 수 있어요.<br>
+<span class="medium">한국대학교, 누리자동차, 시립도서관</span> 등 나의 기관을 확인해보세요<br>
+&#40;국내 대학 90% 이상 구독 중&#41;
+</dd>
+</dl>
+</div>
+</li>
+<li>
+<a href='#' class="auth"
+onclick="sslMove('/member/login');fn_statistics('A102', '', '')"><span>로그인</span></a>
+</li>
+<li>
+<a href='#' class="auth"
+onclick="sslMove('/join/joinIndex');fn_statistics('A103', '', '')"><span>회원가입</span></a>
+</li>
+<li><a href="/notice/noticeList"
+onclick="fn_statistics('A104', '', '')"><span>고객센터</span></a></li>
+
+<li>
+<button type='button' class="button-language" aria-label='언어선택'
+onclick="resolveLocal();fn_statistics('A142', '', '')"></button>
+</li>
+</ul>
+</div>
+<i class="after"></i>
+</div>
+<div class="menu-toggle">
+<nav class="inner">
+<ul>
+<li>
+<strong>주제분류</strong>
+<ol>
+<li>
+<button type="button" class="button-secondary-toggle active"><span>사회과학</span></button>
+<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: 180px; height: 408px;"><ol class="category-secondary active" style="overflow: hidden; width: 180px; height: 408px;">
+<li><a href="/subject/subjectList?subjCode=NB01"><span>경영학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB14"><span>경제학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB02"><span>관광학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB03"><span>교육학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB04"><span>군사학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB15"><span>무역학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB05"><span>문헌정보학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB07"><span>법학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB00"><span>사회과학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB16"><span>사회복지학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB08"><span>사회학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB09"><span>신문방송학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB10"><span>심리과학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB11"><span>정치외교학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB12"><span>지리/지역개발학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB17"><span>지역학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB13"><span>행정학</span></a></li>
+</ol><div class="slimScrollBar" style="background: rgba(0, 0, 0, 0.3); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: block; border-radius: 7px; z-index: 99; right: 1px; height: 207.96px;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div></div>
+</li>
+<li>
+<button type="button" class="button-secondary-toggle"><span>공학</span></button>
+<ol class="category-secondary">
+<li><a href="/subject/subjectList?subjCode=ND01"><span>건축공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND00"><span>공학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND02"><span>기계공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND03"><span>산업공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND05"><span>자원/재료공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND07"><span>전자/제어계측공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND08"><span>전자/정보통신공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND09"><span>조선/해양공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND13"><span>컴퓨터학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND10"><span>토목/환경공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND12"><span>항공우주공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND11"><span>화학/생물공학</span></a></li>
+</ol>
+</li>
+<li>
+<button type="button" class="button-secondary-toggle"><span>자연과학</span></button>
+<ol class="category-secondary" style="overflow: hidden; width: 180px; height: 408px;">
+<li><a href="/subject/subjectList?subjCode=NC01"><span>물리학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC02"><span>생물학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC03"><span>생활과학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC04"><span>수학/통계학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC00"><span>자연과학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC05"><span>전문/지구과학</span></a></li>
+</ol>
+</li>
+<li>
+<button type="button" class="button-secondary-toggle"><span>의약학</span></button>
+<ol class="category-secondary" style="overflow: hidden; width: 180px; height: 408px;">
+<li><a href="/subject/subjectList?subjCode=NE01"><span>간호학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE02"><span>수의학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE03"><span>약학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE04"><span>의학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE00"><span>의학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE05"><span>치의학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE06"><span>한의학</span></a></li>
+</ol>
+</li>
+<li>
+<button type="button" class="button-secondary-toggle"><span>인문학</span></button>
+<ol class="category-secondary" style="overflow: hidden; width: 180px; height: 408px;">
+<li><a href="/subject/subjectList?subjCode=NA12"><span>독일어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA14"><span>러시아어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA05"><span>문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA04"><span>언어학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA01"><span>역사학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA10"><span>영어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA00"><span>인문학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA08"><span>일본어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA03"><span>종교학/신학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA07"><span>중국어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA02"><span>철학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA11"><span>프랑스어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA06"><span>한국어문학</span></a></li>
+</ol>
+</li>
+<li>
+<button type="button" class="button-secondary-toggle"><span>예술체육학</span></button>
+<ol class="category-secondary" style="overflow: hidden; width: 180px; height: 408px;">
+<li><a href="/subject/subjectList?subjCode=NG01"><span>건축</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG02"><span>디자인</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG03"><span>무용</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG04"><span>미술</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG05"><span>미용</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG06"><span>사진</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG07"><span>연극</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG08"><span>영화</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG00"><span>예술체육학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG09"><span>음악</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG10"><span>의상</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG11"><span>체육</span></a></li>
+</ol>
+</li>
+<li>
+<button type="button" class="button-secondary-toggle"><span>농수해양학</span></button>
+<ol class="category-secondary" style="overflow: hidden; width: 180px; height: 408px;">
+<li><a href="/subject/subjectList?subjCode=NF00"><span>농수해양학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF01"><span>농학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF02"><span>수산학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF03"><span>식품과학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF04"><span>임학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF06"><span>축산학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF07"><span>해상운송학</span></a></li>
+</ol>
+</li>
+<li>
+<button type="button" class="button-secondary-toggle"><span>복합학</span></button>
+<ol class="category-secondary" style="overflow: hidden; width: 180px; height: 408px;">
+<li><a href="/subject/subjectList?subjCode=NH02"><span>과학기술학/기술정책</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NH03"><span>뇌/인지과학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NH05"><span>여성학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NH00"><span>학제간연구</span></a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<strong><a href="/curation/curationList?bestCode=BN00" onclick="fn_statistics_call('A209');">Best논문</a></strong>
+<ol>
+<li><a href="/curation/curationList?bestCode=CE" onclick="fn_statistics_call('A210');"><span>주간 급상승</span></a></li>
+<li><a href="/curation/curationList?bestCode=BN00" onclick="fn_statistics_call('A211');"><span>그룹별 Best</span></a></li>
+<li><a href="/curation/curationList?bestCode=NA" onclick="fn_statistics_call('A212');"><span>주제별 Best</span></a></li>
+<li><a href="/curation/curationList?bestCode=CF" onclick="fn_statistics_call('A213');"><span>취업 비법 논문</span></a></li>
+<li><a href="/curation/curationList?bestCode=CC" onclick="fn_statistics_call('A214');"><span>세상의 모든 지식</span></a></li>
+<li><a href="/curation/curationList?bestCode=CD" onclick="fn_statistics_call('A215');"><span>3분 논문</span></a></li>
+</ol>
+</li>
+<li>
+<strong style=""><a href="/journal/journal-iprd-search" onclick="fn_statistics_call('A223');">저널∙발행기관</a></strong>
+<a href="https://chrome.google.com/webstore/detail/dbpia/odgmdojokcjkabaafmajcoacjkknlgnk" target="_blank" onclick="fn_statistics_call('A218');"><span>크롬 서지관리 다운로드</span></a>
+</li>
+<li>
+<dl>
+<dt id="menu-benefit" class=""><a href="/event/bene/index" onclick="fn_statistics_call('A216');">회원혜택</a></dt>
+<dd data-menu-item="#menu-benefit"><a href="/event/bene/index" onclick="fn_statistics_call('A216');">로그인 회원이 가져갈 수 있는 혜택들을 확인하고 이용하세요.</a></dd>
+<dt id="menu-tip" class=""><a href="#" onclick="thesisTipClick();fn_statistics_call('A222');">논문작성TIP</a></dt>
+<dd data-menu-item="#menu-tip"><a href="#" onclick="thesisTipClick();fn_statistics_call('A222');">&lt;논문을 쓰기 전에 당신이 알아야 할 10가지&gt; 강의 영상을 무료로 보실 수 있어요.</a>
+</dd>
+<dt id="menu-akaroot" class=""><a href="http://akaroot.co.kr/" target="_blank" onclick="fn_statistics_call('A217');">아카루트</a></dt>
+<dd data-menu-item="#menu-akaroot"><a href="http://akaroot.co.kr/" target="_blank" onclick="fn_statistics_call('A217');">학술연구/단체지원/교육 등 연구자 활동을 지속하도록 DBpia가 지원하고 있어요.</a>
+</dd>
+</dl>
+<div class="group-button">
+<a href="/notice/noticeList" onclick="fn_statistics_call('A219');"><span>고객센터</span></a>
+<a href="#" onclick="fnContact();fn_statistics_call('A220');"><span>제휴문의</span></a>
+</div>
+</li>
+</ul>
+</nav>
+</div>
+<div class="category-toggle">
+<div class="category-title">
+<em>주제분류</em>
+</div>
+<nav>
+<ol>
+<li>
+<button type="button" class="button-category-toggle button-menu-default active" data-category="#social-science"><span>사회과학</span></button>
+</li>
+<li>
+<button type="button" class="button-category-toggle" data-category="#engineering"><span>공학</span></button>
+</li>
+<li>
+<button type="button" class="button-category-toggle" data-category="#natural-science"><span>자연과학</span></button>
+</li>
+<li>
+<button type="button" class="button-category-toggle" data-category="#medicine-pharmacy"><span>의약학</span></button>
+</li>
+<li>
+<button type="button" class="button-category-toggle" data-category="#humanities"><span>인문학</span></button>
+</li>
+<li>
+<button type="button" class="button-category-toggle" data-category="#art-physical"><span>예술체육학</span></button>
+</li>
+<li>
+<button type="button" class="button-category-toggle" data-category="#agricultural-marine"><span>농수해양학</span></button>
+</li>
+<li>
+<button type="button" class="button-category-toggle" data-category="#interdisciplinary-science"><span>복합학</span></button>
+</li>
+</ol>
+</nav>
+<div class="category-list">
+<ol class="category-secondary active category-secondary-default" id="social-science">
+<li><a href="/subject/subjectList?subjCode=NB01"><span>경영학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB14"><span>경제학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB02"><span>관광학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB03"><span>교육학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB04"><span>군사학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB15"><span>무역학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB05"><span>문헌정보학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB07"><span>법학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB00"><span>사회과학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB16"><span>사회복지학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB08"><span>사회학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB09"><span>신문방송학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB10"><span>심리과학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB11"><span>정치외교학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB12"><span>지리/지역개발학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB17"><span>지역학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NB13"><span>행정학</span></a></li>
+</ol>
+<ol class="category-secondary" id="engineering">
+<li><a href="/subject/subjectList?subjCode=ND01"><span>건축공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND00"><span>공학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND02"><span>기계공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND03"><span>산업공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND05"><span>자원/재료공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND07"><span>전자/제어계측공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND08"><span>전자/정보통신공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND09"><span>조선/해양공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND13"><span>컴퓨터학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND10"><span>토목/환경공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND12"><span>항공우주공학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=ND11"><span>화학/생물공학</span></a></li>
+</ol>
+<ol class="category-secondary" id="natural-science">
+<li><a href="/subject/subjectList?subjCode=NC01"><span>물리학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC02"><span>생물학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC03"><span>생활과학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC04"><span>수학/통계학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC00"><span>자연과학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NC05"><span>전문/지구과학</span></a></li>
+</ol>
+<ol class="category-secondary" id="medicine-pharmacy">
+<li><a href="/subject/subjectList?subjCode=NE01"><span>간호학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE02"><span>수의학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE03"><span>약학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE04"><span>의학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE00"><span>의학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE05"><span>치의학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NE06"><span>한의학</span></a></li>
+</ol>
+<ol class="category-secondary" id="humanities">
+<li><a href="/subject/subjectList?subjCode=NA12"><span>독일어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA14"><span>러시아어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA05"><span>문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA04"><span>언어학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA01"><span>역사학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA10"><span>영어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA00"><span>인문학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA08"><span>일본어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA03"><span>종교학/신학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA07"><span>중국어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA02"><span>철학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA11"><span>프랑스어문학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NA06"><span>한국어문학</span></a></li>
+</ol>
+<ol class="category-secondary" id="art-physical">
+<li><a href="/subject/subjectList?subjCode=NG01"><span>건축</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG02"><span>디자인</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG03"><span>무용</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG04"><span>미술</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG05"><span>미용</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG06"><span>사진</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG07"><span>연극</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG08"><span>영화</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG00"><span>예술체육학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG09"><span>음악</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG10"><span>의상</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NG11"><span>체육</span></a></li>
+</ol>
+<ol class="category-secondary" id="agricultural-marine">
+<li><a href="/subject/subjectList?subjCode=NF00"><span>농수해양학일반</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF01"><span>농학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF02"><span>수산학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF03"><span>식품과학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF04"><span>임학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF06"><span>축산학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NF07"><span>해상운송학</span></a></li>
+</ol>
+<ol class="category-secondary" id="interdisciplinary-science">
+<li><a href="/subject/subjectList?subjCode=NH02"><span>과학기술학/기술정책</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NH03"><span>뇌/인지과학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NH05"><span>여성학</span></a></li>
+<li><a href="/subject/subjectList?subjCode=NH00"><span>학제간연구</span></a></li>
+</ol>
+</div>
+</div>
+</div>
+<div id="pub_modalAdvancedSearch" class="modal" style="max-width:700px;">
+<span class="modalScreen opacity"></span>
+<div class="modalContent">
+<div class="modalHeader">
+<p class="tit">상세검색</p>
+<button class="closeModal" id="#pub_modalAdvancedSearch"><span class="blind">닫기</span></button>
+</div>
+<div class="modalBody type07 eToggleSection">
+<h5 class="mb1">
+검색어 입력
+<span class="desc">검색어는 최대 5개까지 추가하실 수 있습니다.</span>
+<button type="button" class="btn btnText darkGrayColor medium btnLine fs12 btnMultiLangInput">
+<span>다국어입력</span></button>
+</h5>
+<form name="form" id="topfrm">
+<div class="multiLangInputBox eHideSec" id="topinfodiv">
+<table>
+<tbody>
+<tr>
+<td style="height:31px;" class="small" align="absmiddle">
+<table>
+<tbody>
+<tr>
+<td class="small" style="height:22px; vertical-align:middle; text-align:left;">
+<input type="text" name="data_list" id="data_list" class="batang_text"/>
+<span id="data_list1"></span>
+<input type="hidden" name="sta_code" id="multi_code" value="1"/>
+<a href="javascript:write_info();"
+style="margin-left:5px;margin-top:0px;"><img
+src="/images/language/language_btn_ok.gif" width="42" height="20"
+border="0" align="absmiddle"
+alt="입력"
+title="입력"></a>
+<a href="javascript:clear_field();" style="margin-left:5px;margin-top:0px;"><img
+src="/images/language/language_btn_del.gif" width="52" height="20"
+border="0" align="absmiddle"
+alt="삭제"
+title="삭제"></a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="small"
+style="height:25px; background:url(/images/language/3rd_tab_bg.gif) repeat;">
+<div id="menu_tab">
+<table style="height:25px;">
+<tbody>
+<tr style="text-align:center;">
+<td style="width:11px; background:url(/images/language/3rd_tab_over1.gif) no-repeat;"></td>
+<td class="small"
+style="padding-top:6px; background:url(/images/language/3rd_tab_over2.gif) repeat;">
+<a href="javascript:go_menu(1);" class="default"><strong>한자 음가로 찾기</strong></a></td>
+<td style="width:11px; background:url(/images/language/3rd_tab_over3.gif) no-repeat;"></td>
+<td style="width:1px;"></td>
+<td style="width:11px; background:url(/images/language/3rd_tab_1.gif) no-repeat;"></td>
+<td class="small"
+style="padding-top:6px; background:url(/images/language/3rd_tab_2.gif) repeat;">
+<a href="javascript:go_menu(2);" class="default">한자 부수로 찾기</a></td>
+<td style="width:11px; background:url(/images/language/3rd_tab_3.gif) no-repeat;"></td>
+<td style="width:1px;"></td>
+<td style="width:11px; background:url(/images/language/3rd_tab_1.gif) no-repeat;"></td>
+<td class="small"
+style="padding-top:6px; background:url(/images/language/3rd_tab_2.gif) repeat;">
+<a href="javascript:go_menu(3);" class="default">러시아어</a></td>
+<td style="width:11px; background:url(/images/language/3rd_tab_3.gif) no-repeat;"></td>
+<td style="width:1px;"></td>
+<td style="width:11px; background:url(/images/language/3rd_tab_1.gif) no-repeat;"></td>
+<td class="small"
+style="padding-top:6px; background:url(/images/language/3rd_tab_2.gif) repeat;">
+<a href="javascript:go_menu(4);" class="default">옛한글</a></td>
+<td style="width:11px; background:url(/images/language/3rd_tab_3.gif) no-repeat;"></td>
+<td style="width:1px;"></td>
+<td style="width:11px; background:url(/images/language/3rd_tab_1.gif) no-repeat;"></td>
+<td class="small"
+style="padding-top:6px; background:url(/images/language/3rd_tab_2.gif) repeat;">
+<a href="javascript:go_menu(5);" class="default">일본어</a></td>
+<td style="width:11px; background:url(/images/language/3rd_tab_3.gif) no-repeat;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td style="height:18px;"></td>
+</tr>
+<tr>
+<td>
+<div id="view_eumga">
+<a href="javascript:get_page('ga');" class="left1">가</a>
+<a href="javascript:get_page('na');" class="left1">나</a>
+<a href="javascript:get_page('da');" class="left1">다</a>
+<a href="javascript:get_page('la');" class="left1">라</a>
+<a href="javascript:get_page('ma');" class="left1">마</a>
+<a href="javascript:get_page('ba');" class="left1">바</a>
+<a href="javascript:get_page('sa');" class="left1">사</a>
+<a href="javascript:get_page('ah');" class="left1">아</a>
+<a href="javascript:get_page('ja');" class="left1">자</a>
+<a href="javascript:get_page('ca');" class="left1">차</a>
+<a href="javascript:get_page('ka');" class="left1">카</a>
+<a href="javascript:get_page('ta');" class="left1">타</a>
+<a href="javascript:get_page('pa');" class="left1">파</a>
+<a href="javascript:get_page('ha');" class="left1">하</a>
+</div>
+</td>
+</tr>
+<tr>
+<td style="height:10px;"></td>
+</tr>
+<tr>
+<td>
+<div id="view_sub">
+</div>
+</td>
+</tr>
+<tr>
+<td style="height:10px;"></td>
+</tr>
+<tr>
+<td class="large">
+<div id="insert_list">
+</div>
+</td>
+</tr>
+<tr>
+<td style="height:20px;"></td>
+</tr>
+<tr>
+<td style="height:1px; background:#d7d7d7;"></td>
+</tr>
+<tr>
+<td style="height:10px;"></td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<div id="info_view">
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="advancedSearchBox">
+<ul id="pub_advancedSearchBox">
+<li>
+<span class="fSelect">
+<label>
+<span>전체</span>
+<select title="범위"
+name="select_search">
+<option value="*" selected="selected">전체</option>
+<option value="NODE_NM_2">논문명</option>
+<option value="SRCH_PLCT_NM">저널명</option>
+<option value="SRCH_IPRD_NM">발행기관명</option>
+<option value="SRCH_AUTR_NM">저자명</option>
+</select>
+</label>
+</span>
+<span class="gInputText">
+<input type="text" class="fText dev_input"
+placeholder="검색어를 입력하세요."/>
+</span>
+<span class="fSelect">
+<label>
+<span>AND</span>
+<select title="조건"
+name="search_option">
+<option value=" ">AND</option>
+<option value="|">OR</option>
+<option value="!">AND NOT</option>
+</select>
+</label>
+</span>
+<button type="button" class="btn btnIcon subColor plus" id="pub_btnAddRowAdvanced">
+<span>추가</span>
+</button>
+</li>
+<li>
+<span class="fSelect">
+<label>
+<span>전체</span>
+<select title="범위"
+name="select_search">
+<option value="*" selected="selected">전체</option>
+<option value="NODE_NM_2">논문명</option>
+<option value="SRCH_PLCT_NM">저널명</option>
+<option value="SRCH_IPRD_NM">발행기관명</option>
+<option value="SRCH_AUTR_NM">저자명</option>
+</select>
+</label>
+</span>
+<span class="gInputText">
+<input type="text" class="fText dev_input"
+placeholder="검색어를 입력하세요."/>
+</span>
+<span class="fSelect">
+<label>
+<span>AND</span>
+<select title="조건"
+name="search_option">
+<option value=" ">AND</option>
+<option value="|">OR</option>
+<option value="!">AND NOT</option>
+</select>
+</label>
+</span>
+<button type="button" class="btn btnIcon subColor minus" id="pub_btnRemoveRowAdvanced">
+<span>삭제</span></button>
+</li>
+</ul>
+</div>
+<div class="advancedCateBox">
+<p class="tit">언어</p>
+<ul class="checkBox">
+<li>
+<span class="fCheck">
+<input type="checkbox" name="lang" id="pub_cate_lang_check_01" value="all"/>
+<label for="pub_cate_lang_check_01">전체</label>
+</span>
+</li>
+<li>
+<span class="fCheck">
+<input type="checkbox" name="lang" id="pub_cate_lang_check_02" value="한국어"/>
+<label for="pub_cate_lang_check_02">한국어</label>
+</span>
+</li>
+<li>
+<span class="fCheck">
+<input type="checkbox" name="lang" id="pub_cate_lang_check_03" value="영어"/>
+<label for="pub_cate_lang_check_03">영어</label>
+</span>
+</li>
+<li>
+<span class="fCheck">
+<input type="checkbox" name="lang" id="pub_cate_lang_check_04" value="중국어"/>
+<label for="pub_cate_lang_check_04">중국어</label>
+</span>
+</li>
+<li>
+<span class="fCheck">
+<input type="checkbox" name="lang" id="pub_cate_lang_check_05" value="일본어"/>
+<label for="pub_cate_lang_check_05">일본어</label>
+</span>
+</li>
+<li>
+<span class="fCheck">
+<input type="checkbox" name="lang" id="pub_cate_lang_check_06" value="etc"/>
+<label for="pub_cate_lang_check_06">기타</label>
+</span>
+</li>
+</ul>
+</div>
+<div class="advancedCateBox">
+<p class="tit">서비스 중지 콘텐츠</p>
+<ul class="checkBox">
+<li>
+<span class="fCheck">
+<input type="checkbox" id="pub_cate_stop_check_01" name="svc_yn" value="Y"/>
+<label for="pub_cate_stop_check_01">제외</label>
+</span>
+</li>
+</ul>
+</div>
+<div class="advancedCateBox">
+<p class="tit">이용형태</p>
+<ul class="checkBox">
+<li>
+<span class="fCheck">
+<input type="checkbox" id="pub_cate_type_check_01" name="use_yn" value="Y"/>
+<label for="pub_cate_type_check_01">원문이용</label>
+</span>
+</li>
+<li>
+<span class="fCheck">
+<input type="checkbox" id="pub_cate_type_check_02" name="use_yn" value="N"/>
+<label for="pub_cate_type_check_02">서지이용</label>
+</span>
+</li>
+</ul>
+</div>
+</form>
+</div>
+<div class="modalFooter" id="pub_modalFooter">
+<button type="button" class="btn btnIconB noLine btnReset">
+<span class="reset" id="dev_srch_reset">검색값 초기화</span>
+</button>
+<button type="button" class="btn btnText pointColor large closeModal"
+onclick="search_dsend();fn_statistics('Z204', '', '')"
+id="#pub_modalAdvancedSearch"><span>검색</span>
+</button>
+</div>
+</div>
+</div>
+<div id="pub_modalChangePwRegular" class="modal" style="max-width:526px;">
+<span class="modalScreen"></span>
+<div class="modalContent">
+<div class="modalHeader">
+<p class="tit">비밀번호 변경 안내</p>
+<button class="closeModal" id="#pub_modalChangePwRegular"><span class="blind">닫기</span></button>
+</div>
+<div class="modalBody">
+<p class="comtBox">
+비밀번호를 변경하신 지 90일 이상 지났습니다.<br/>개인정보 보호를 위해 비밀번호를 변경해 주세요.
+</p>
+</div>
+<div class="modalFooter halfBtn">
+<button onclick="chgNext()" class="btn btnText subColor large"><span>다음에 변경하기</span></button>
+<button onclick="chgNow()" class="btn btnText mainColor large btnConfirm"><span>지금 변경하기</span></button>
+</div>
+</div>
+</div>
+<div id="pub_modalChangePwRegular2" class="modal" style="max-width:526px;">
+<span class="modalScreen"></span>
+<div class="modalContent">
+<div class="modalHeader">
+<p class="tit">비밀번호 변경 안내</p>
+<button class="closeModal" id="#pub_modalChangePwRegular2" onclick="fnReloadModal();"><span
+class="blind">닫기</span></button>
+</div>
+<div class="modalBody">
+<p class="comtBox">
+비밀번호를 변경하신 지 90일 이상 지났습니다.<br/>개인정보 보호를 위해 비밀번호를 변경해 주세요.
+</p>
+</div>
+<div class="modalFooter halfBtn">
+<button onclick="fnReloadModal();" class="btn btnText subColor large"><span>다음에 변경하기</span></button>
+<button onclick="chgNow()" class="btn btnText mainColor large btnConfirm"><span>지금 변경하기</span></button>
+</div>
+</div>
+</div>
+<div id="alarmDetail" class="modal" style="max-width:685px;">
+<span class="modalScreen"></span>
+<div class="modalContent">
+<div class="modalHeader">
+<button class="closeModal" id="#alarmDetail"><span class="blind">닫기</span></button>
+</div>
+<div class="modalBody">
+</div>
+<div class="modalFooter halfBtn">
+</div>
+</div>
+</div>
+<div id="pub_modalDownloadEvent" class="modal" style="max-width: 526px; display: none;">
+<div class="modalContent">
+<span class="modalScreen opacity"></span>
+<div class="modalHeader">
+<p class="tit">간편 교외 인증 이벤트 응모</p>
+<button class="closeModal" id="#pub_modalDownloadEvent"><span class="blind">닫기</span></button>
+</div>
+<div class="modalBody type02">
+<div class="formGroup">
+<p class="tit">이름</p>
+<ul>
+<li>
+<span class="gInputText w100per">
+<input name="userName" id="userName" type="text" class="fText" maxlength="30"/>
+</span>
+</li>
+</ul>
+</div>
+<div class="formGroup">
+<p class="tit">전화번호</p>
+<ul>
+<li>
+<span class="gInputText w100per">
+<input name="userPhone" id="userPhone" type="text" class="fText" maxlength="11"
+onKeyDown="onlyNumber(event)"/>
+</span>
+</li>
+</ul>
+</div>
+<div class="tableLayout"></div>
+<div class="downloadBox">
+<p class="tit">개인정보 활용 동의</p>
+<div class="gInputText w100per borderLine">
+<textarea cols="50" rows="6" name="privacy" id="privacy" class="fTextarea w100per"
+readonly="readonly">누리미디어는 개인정보 관련 법률(개인정보보호법, 정보통신망 이용촉진 및 정보보호에 관한 법률)을 준수하며 수집된 개인 정보는 해당 서비스 외에 다른 용도로 절대 사용하지 않으며, 사용자 요청 시 바로 삭제할 수 있습니다.
+
+1. 수집항목 및 이용목적
+- 수집항목: 이름, 전화번호, 개인정보 활용 동의
+- 이용목적: 이벤트 참여
+
+2. 보유 및 이용기간
+- 이벤트 종료 1개월 후 삭제처리
+- 이벤트 종료일 : 2020.05.15
+
+귀하는 개인정보 제공에 동의하지 않으실 권리가 있습니다.
+단, 개인정보 제공에 동의하지 않을 경우
+이벤트 참여를 하실 수 없습니다.
+
+그 밖의 사항은 개인정보취급방침을 준수합니다.
+
+개인정보 수집 및 이용에 대한 안내를 이해하였으며, 개인정보 제공에 동의하십니까?
+</textarea>
+</div>
+</div>
+<div class="etcSpace">
+<div class="Right">
+<span class="warn">개인정보 처리방침에 동의해주세요</span>
+<input type="checkbox" id="agreeContract" checked="checked">
+<label for="agreeContract"> 개인정보 처리방침에 동의</label>
+</div>
+</div>
+</div>
+<div class="modalFooter" id="pub_modalFooter">
+<button type="button" class="btn btnText subColor large closeModal" id=""><span>취소</span></button>
+<button type="button" class="btn btnText mainColor large" id="" name="btnDoneEventModal">
+<span>확인</span></button>
+</div>
+</div>
+</div>
+</div><!-- 헤더 (끝) -->
+
+
+
+
+	<!-- jinstar start -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="_css/agc_style.css">
+	<link rel="stylesheet" type="text/css" href="_css/slick.css">
+	<link rel="stylesheet" type="text/css" href="_css/slick-theme.css">
+    <!-- 콘텐츠 (시작) -->
+    <div class="container">
+		<div class="contents" id="contents">
+			<div class="inner">
+				<div class="agc_head_tit">
+					<h2>모바일 헬스케어 어플리케이션의 지속적 사용 결정 요인 <span>Top 1%</span></h2>
+				</div><!-- agc_head_tit -->
+				<div class="agc_head_cate">
+					<span>- <슈렉 2>, <하울의 움직이는 성>, <쿵푸 팬더 2>, <겨울왕국>, <인사이드 아웃>, <빅 히어로>를 중심으로</span>
+					A Review of Character Characteristics of Characters Shown in Animations : Focusing on Shurek 2 (2004), and Howl’s Moving Castle (2004), Kung Fu Panda 2 (2008), Frozen (2013), Inside Out (2015), Big Hero (2015)
+				</div><!-- agc_head_cate -->
+			</div><!-- inner -->
+
+			<div class="agc_blue_box">
+				<div class="inner">
+					<div class="agc_write_wrap">
+						<div class="agc_write_box">
+							<h4>저자정보</h4>
+							<ul>
+								<li><a href="#">하은비 하은비 하은비 하은비 하은비 하은비 하은비</a> <p>(<span>연세성공진리학업성취대학교 인문사회</span>)</p></li>
+								<li><a href="#">하은비</a> <p>(<span>연세성공진리학업성취대학교 인문사회</span>)</p></li>
+								<li><a href="#">하은비</a> <p>(<span>연세성공진리학업성취대학교 인문사회</span>)</p></li>
+								<li><a href="#">하은비</a> <p>(<span>연세성공진리학업성취대학교 인문사회</span>)</p></li>
+								<li><a href="#">하은비</a> <p>(<span>연세성공진리학업성취대학교 인문사회</span>)</p></li>
+							</ul>
+						</div><!-- agc_write_box -->
+						<div class="agc_write_box agc_journal">
+							<h4>저널정보</h4>
+							<ul>
+								<li><a href="#">한국HCI학회</a></li>
+								<li><a href="#">한국HCI학회 학술대회</a> | 학술대회자료</li>
+								<li><a href="#">한국HCI학회 학술대회 자료집 2014</a></li>
+								<li>2014. 02 | 645 - 650 (6page)</li>
+								<li>DOI : 10.9728/dcs.2019.20.1.33</li>
+							</ul>
+						</div><!-- agc_write_box -->
+						<div class="agc_write_box agc_wb_img">
+							<a href="#"><img src="images/write_img.png" alt=""></a>
+						</div><!-- agc_write_box -->
+					</div><!-- agc_write_wrap -->
+					<div class="agc_write_more">
+						<a class="agc_wm_open">저자 전체보기 &gt;</a>
+						<div class="agc_wm_pop">
+							<div class="agc_wmp_inner">
+								<h4>저자정보</h4>
+								<ul>
+									<li><a href="#">하은비</a> (<span>연세성공진리학업성취대학교 인문사회</span>)</li>
+									<li><a href="#">하은비</a> (<span>연세성공진리학업성취대학교 인문성공진리학업성취대학교 인문사회사</span>)</li>
+									<li><a href="#">하은비</a> (<span>연세성공진리학업성성공진리학업성취대학교 인문사회취대학교 인문사회</span>)</li>
+									<li><a href="#">하은비</a> (<span>연세성공진리학업성취대학교 인문성공진리학업성취대학교 인문사회사회</span>)</li>
+									<li><a href="#">하은비</a> (<span>연세성공진리학업성취대학교 인문사회성공진리학업성취대학교 인문사회</span>)</li>
+								</ul>
+								<p><a class="agc_wm_close">닫기</a></p>
+							</div><!-- agc_wmp_inner -->
+						</div><!-- agc_wm_pop -->
+					</div><!-- agc_write_more -->
+					<div class="agc_write_info">
+						<ul>
+							<li>이용수 <a href="#">23,123</a></li>
+							<li>내 서재 <a href="#" class="agc_black_t">143</a></li>
+							<li>피인용수 <a href="#">11</a></li>
+						</ul>
+					</div>
+				</div><!-- inner -->
+			</div><!-- agc_blue_box -->
+
+			<div class="inner">
+				<div class="agc_util_btns">
+					<div class="agc_ub_left">
+						<a href="#" class="agc_btn_quote">인용</a>
+						<a class="agc_btn_share">공유</a>
+						<div class="agc_share_pop">
+							<h4>공유하기</h4>
+							<ul>
+								<li><a href="#"><img src="images/sns_twt.png" alt=""></a></li>
+								<li><a href="#"><img src="images/sns_fb.png" alt=""></a></li>
+								<li><a href="#"><img src="images/sns_kko.png" alt=""></a></li>
+								<li><a href="#"><img src="images/sns_nb.png" alt=""></a></li>
+							</ul>
+							<div class="agc_copy_url">
+								<input type="text">
+								<button>URL 복사</button>
+							</div><!-- agc_copy_url -->
+							<a class="agc_share_close"><img src="images/close_btn.png" alt=""></a>
+						</div><!-- agc_share_pop -->
+						<a class="agc_mbtn_share">공유</a>
+						<div class="agc_sns_pop">
+							<div class="agc_sns_inner">
+								<h4>공유하기</h4>
+								<ul>
+									<li><a href="#"><img src="images/sns_twt.png" alt=""></a></li>
+									<li><a href="#"><img src="images/sns_fb.png" alt=""></a></li>
+									<li><a href="#"><img src="images/sns_kko.png" alt=""></a></li>
+									<li><a href="#"><img src="images/sns_nb.png" alt=""></a></li>
+								</ul>
+								<div class="agc_copy_url">
+									<input type="text">
+									<button>URL 복사</button>
+								</div><!-- agc_copy_url -->
+								<a class="agc_share_close"><img src="images/close_btn.png" alt=""></a>
+							</div><!-- agc_sns_inner -->
+						</div><!-- agc_sns_pop -->
+					</div><!-- agc_ub_left -->
+					<div class="agc_ub_right">
+						<a href="#" class="agc_btn_bmark">내서재 담기</a>
+						<a href="#" class="agc_btn_bmark agc_active">내서재 담김</a>
+						<a href="#" class="agc_btn_down">다운받기</a>
+						<a href="#" class="agc_btn_view">논문보기</a>
+						<a href="#" class="agc_btn_link">외부링크</a>
+					</div><!-- agc_ub_right -->
+				</div><!-- agc_util_btns -->
+				<p class="agc_red_msg">이 논문을 2021-12-17에 이용했습니다.</p>
+
+				<div class="agc_con_tit agc_no_border agc_m_ctit">
+					<h3>초록·키워드 <a href="#">오류제보하기</a></h3>
+				</div><!-- agc_con_tit -->
+				<div class="agc_hide_textarea">
+					본 연구는 애니메이션 영화에 나타난 캐릭터의 성격특징을 고찰하고자 시행된 기초 연구다. 본 연구의 분석대상은 <슈렉 2>(2004), <하울의 움직이는 성>(2004), <쿵푸팬더 2>(2008), <겨울왕국>(2013), <인사이드 아웃>(2015), <빅 히어로>(2015)로 총 6편이다. 분석 대상이 되는 주요 캐릭터 선정에는 명확한 기준이 제시되어야 하므로, 인물을 서사적 기능으로 분류하기에 합당한 조지프 캠벨(Joseph Campbell)의 7가지 캐릭터 원형을 분류의 틀로 사용하여 선정했다. 또한 분류의 타당성 검증을 위해서 영화 시나리오 작가 및 연출가를 포함한 전문가 그룹에 의한 검증을 시행했다. 분류된 캐릭터들은 각각 박재남(2015)의 성격 형용사들 중 해당 캐릭터의 성격적 특징을 잘 드러내는 순으로 선택하도록 하여 선정된 형용사들을 활용하여 각 캐릭터들을 에니어그램(Enneagram) 9가지 성격유형으로 분류하였다. 분류 결과 나타난 캐릭터 원형별 성격유형의 특징 중 의미 있는 특징으로는.
+					<p class="agc_text_hide"></p>
+				</div><!-- agc_hide_textarea -->
+				<p class="agc_text_view agc_tarea_more"><a href="#">전체보기 <img src="images/all_view.png" alt=""></a></p>
+
+				<div class="agc_tag_ul">
+					<ul>
+						<li><a href="#">#헬스케어</li></a>
+						<li><a href="#">#모바일</li></a>
+						<li><a href="#">#Mobile Healthcare</li></a>
+						<li><a href="#">#Servqual</li></a>
+						<li><a href="#">#Continous Use</li></a>
+						<li><a href="#">#Code</li></a>
+					</ul>
+				</div><!-- agc_tag_ul -->
+
+				<div class="agc_nocontent">No content found</div>
+
+				<div class="agc_con_tit agc_m_ctit">
+					<h3>목차</h3>
+				</div><!-- agc_con_tit -->
+				<div class="agc_index_ol">
+					<ol>
+						<li>1. 서론</li>
+						<li>2. 이론적배경</li>
+						<li>3. 캐릭터분석</li>
+						<li>4. 결과 및 논의</li>
+						<li>5. 결론</li>
+						<li>6. 참고문헌</li>
+					</ol>
+					<p>Abstract</p>	
+				</div><!-- agc_index_ol -->
+
+				<div class="agc_nocontent">No content found</div>
+
+				<div class="agc_con_tit agc_m_ctit">
+					<h3>참고문헌 <span>(2)</span> <a href="#">참고문헌신청</a></h3>
+				</div><!-- agc_con_tit -->
+				<div class="agc_dot_ul">
+					<ul>
+						<li><a href="#">윤성이 / 2012 / 소셜 네트워크의 확산과 민주주의 의식의 변화 / 한국정치연구 21 (2) : 145 ~ 168 <img src="images/googlescholar.png" alt=""></a></li>
+						<li><a href="#">최진호 / 2012 / 언론의 정파성과 권력 개입 : 1987년 이후 13～17대 대선캠페인 기간의 주요일간지 사설 분석 / 언론과학연구 12 (2) : 534 ~ 571 <img src="images/googlescholar.png" alt=""></a></li>
+						<li><a href="#">윤성이 / 2012 / 소셜 네트워크의 확산과 민주주의 의식의 변화 / 한국정치연구 21 (2) : 145 ~ 168 <img src="images/googlescholar.png" alt=""></a></li>
+						<li><a href="#">윤성이 / 2012 / 소셜 네트워크의 확산과 민주주의 의식의 변화 / 한국정치연구 21 (2) : 145 ~ 168 <img src="images/googlescholar.png" alt=""></a></li>
+					</ul>
+				</div><!-- agc_dot_ul -->
+				<p class="agc_book_login"><a href="#">로그인하시고 참고문헌 전체를 확인해보세요.</a></p>
+
+				<div class="agc_nocontent">If a reference is being serviced by DBpia, register it through [Add references].</div>
+
+				<div class="agc_con_tit agc_m_ctit">
+					<h3>이 논문과 연관된 판례 <span>(16)</span></h3>
+				</div><!-- agc_con_tit -->
+
+				<section class="agc_prec_list regular slider">
+					<div>
+						<p class="agc_pl_tit">대법원 1985.06.25 선고 85도 660 판결 관세법 위반</p>
+						<p class="agc_pl_sjt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer too.</p>
+						<p class="agc_pl_more">자세히 보기</p>
+					</div>
+					<div>
+						<p class="agc_pl_tit">대법원 1985.06.25 선고 85도 660 판결 관세법 위반</p>
+						<p class="agc_pl_sjt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer too.</p>
+						<p class="agc_pl_more">자세히 보기</p>
+					</div>
+					<div>
+						<p class="agc_pl_tit">대법원 1985.06.25 선고 85도 660 판결 관세법 위반</p>
+						<p class="agc_pl_sjt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer too.</p>
+						<p class="agc_pl_more">자세히 보기</p>
+					</div>
+					<div>
+						<p class="agc_pl_tit">대법원 1985.06.25 선고 85도 660 판결 관세법 위반</p>
+						<p class="agc_pl_sjt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer too.</p>
+						<p class="agc_pl_more">자세히 보기</p>
+					</div>
+					<div>
+						<p class="agc_pl_tit">대법원 1985.06.25 선고 85도 660 판결 관세법 위반</p>
+						<p class="agc_pl_sjt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer too.</p>
+						<p class="agc_pl_more">자세히 보기</p>
+					</div>
+					<div>
+						<p class="agc_pl_tit">대법원 1985.06.25 선고 85도 660 판결 관세법 위반</p>
+						<p class="agc_pl_sjt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer too.</p>
+						<p class="agc_pl_more">자세히 보기</p>
+					</div>
+				</section>
+
+				<div class="agc_prec_pop">
+					<div class="agc_pp_inner">
+						<a class="agc_pp_close"><img src="images/close_btn.png" alt=""></a>
+						<h4>논문의 판례정보</h4>
+						<h5>판례번호</h5>
+						<p>서울중앙지방법원 2006. 8. 11. 선고 2006고합177 판결 [통신비밀보호법위반] [각공2006.9.10.(37),2016]</p>
+						<h5>판결요지</h5>
+						<p class="agc_pp_sjt">피고인이 트럭을 도로의 중앙선 위에 왼쪽 바깥 바퀴가 걸친 상태로 운행하던 중 피해자가 승용차를 운전하여 피고인이 진행하던 차선으로 달려오다가 급히 자기 차선으로 들어가면서 피고인이 운전하던 트럭과 교행할 무렵 다시 피고인의 차선으로 들어와 그 차량의 왼쪽 앞 부분으로 트럭의 왼쪽 뒷바퀴 부분을 스치듯이 충돌하고 이어서 트럭을 바짝 다시 피고인의 차선으로 들어와 그 차량의 왼쪽 앞 부분으로 트럭의 왼쪽 뒷바퀴 부분을 ……</p>
+						<div class="agc_more_view">
+							<a href="#">판결요지 더보기</a>
+						</div>
+						<div class="agc_all_view">
+							<a href="#">전문보기</a>
+						</div>
+					</div><!-- agc_pp_inner -->
+				</div><!-- agc_prec_pop -->
+
+				<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+				<script type="text/javascript">
+					$(document).on('ready', function() {
+						$(".agc_prec_list").slick({
+							pagenation: true,
+							dots: false,
+							infinite: false,
+							slidesToShow: 4,
+							slidesToScroll: 4,
+							responsive: [
+								{
+									breakpoint: 959,
+									settings: {
+										slidesToShow: 3,
+										slidesToScroll: 3,
+									}
+								},
+								{
+									breakpoint: 600,
+									settings: {
+										slidesToShow: 2,
+										slidesToScroll: 2,
+									}
+								},
+								{
+									breakpoint: 500,
+									settings: {
+										slidesToShow: 1.3,
+										slidesToScroll: 1,
+									}
+								}
+							]
+						});
+					});
+				</script>
+			</div><!-- inner -->
+
+			<div class="agc_gray_box">
+				<div class="inner">
+					<div class="agc_con_tit">
+						<h3>함께 읽어보면 좋을 논문</h3>
+						<h4>논문 유사도에 따라 DBpia가 추천하는 논문입니다. 함께 보면 좋을 연관 논문을 확인해보세요!</h4>
+					</div><!-- agc_con_tit -->
+					<section class="agc_recom_list agc_list5 regular slider">
+						<div>
+							<a href="#" class="agc_rl_box">
+								<p class="agc_rl_tit">기질 및 성격 검사(Temperament and Character Inventory: TCI)의 국내 연구 동향: 1998-2018년 학술지를 중심으로</p>
+								<div class="agc_rl_tbox">
+									<p class="agc_recom_writer">이소미, 서준영, 김혁진, 박혜리 외 3명</p>
+									<p class="agc_recom_journal">한국기술연합학술지</p>
+									<p>2021. 11. 13</p>
+								</div><!-- agc_rl_tbox -->
+							</a><!-- agc_rl_box -->
+						</div>
+						<div>
+							<a href="#" class="agc_rl_box">
+								<p class="agc_rl_tit">기질 및 성격 검사(Temperament and Character Inventory: TCI)의 국내 연구 동향: 1998-2018년 학술지를 중심으로</p>
+								<div class="agc_rl_tbox">
+									<p class="agc_recom_writer">이소미, 서준영, 김혁진, 박혜리 외 3명</p>
+									<p class="agc_recom_journal">한국기술연합학술지학술지</p>
+									<p>2021. 11. 13</p>
+								</div><!-- agc_rl_tbox -->
+							</a><!-- agc_rl_box -->
+						</div>
+						<div>
+							<a href="#" class="agc_rl_box">
+								<p class="agc_rl_tit">기질 및 성격 검사(Temperament and Character Inventory: TCI)의 국내 연구 동향: 1998-2018년 학술지를 중심으로</p>
+								<div class="agc_rl_tbox">
+									<p class="agc_recom_writer">이소미, 서준영, 김혁진, 박혜리 외 3명</p>
+									<p class="agc_recom_journal">한국기술연합학술지 한국기술연합학술지 한국기술연합학술학술지 한국기술연합학술학술지 한국기술연합학술지</p>
+									<p>2021. 11. 13</p>
+								</div><!-- agc_rl_tbox -->
+							</a><!-- agc_rl_box -->
+						</div>
+						<div>
+							<a href="#" class="agc_rl_box">
+								<p class="agc_rl_tit">기질 및 성격 검사(Temperament and Character Inventory: TCI)의 국내 연구 동향: 1998-2018년 학술지를 중심으로</p>
+								<div class="agc_rl_tbox">
+									<p class="agc_recom_writer">이소미, 서준영, 김혁진, 박혜리 외 3명</p>
+									<p class="agc_recom_journal">한국기술연합학술지 한국기술연합학술지 한국기술연합학술지</p>
+									<p>2021. 11. 13</p>
+								</div><!-- agc_rl_tbox -->
+							</a><!-- agc_rl_box -->
+						</div>
+						<div>
+							<a href="#" class="agc_rl_box">
+								<p class="agc_rl_tit">기질 및 성격 검사(Temperament and Character Inventory: TCI)의 국내 연구 동향: 1998-2018년 학술지를 중심으로</p>
+								<div class="agc_rl_tbox">
+									<p class="agc_recom_writer">이소미, 서준영, 김혁진, 박혜리 외 3명</p>
+									<p class="agc_recom_journal">한국기술연합학술지 한국기술연합학술지 한국기술연합학술지</p>
+									<p>2021. 11. 13</p>
+								</div><!-- agc_rl_tbox -->
+							</a><!-- agc_rl_box -->
+						</div>
+						<div>
+							<a href="#" class="agc_rl_box">
+								<p class="agc_rl_tit">기질 및 성격 검사(Temperament and Character Inventory: TCI)의 국내 연구 동향: 1998-2018년 학술지를 중심으로</p>
+								<div class="agc_rl_tbox">
+									<p class="agc_recom_writer">이소미, 서준영, 김혁진, 박혜리 외 3명</p>
+									<p class="agc_recom_journal">한국기술연합학술지 한국기술연합학술지 한국기술연합학술지</p>
+									<p>2021. 11. 13</p>
+								</div><!-- agc_rl_tbox -->
+							</a><!-- agc_rl_box -->
+						</div>
+						<div>
+							<a href="#" class="agc_rl_box">
+								<p class="agc_rl_tit">기질 및 성격 검사(Temperament and Character Inventory: TCI)의 국내 연구 동향: 1998-2018년 학술지를 중심으로</p>
+								<div class="agc_rl_tbox">
+									<p class="agc_recom_writer">이소미, 서준영, 김혁진, 박혜리 외 3명</p>
+									<p class="agc_recom_journal">한국기술연합학술지 한국기술연합학술지 한국기술연합학술지</p>
+									<p>2021. 11. 13</p>
+								</div><!-- agc_rl_tbox -->
+							</a><!-- agc_rl_box -->
+						</div>
+					</section>
+
+					<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+					<script type="text/javascript">
+						$(document).on('ready', function() {
+							$(".agc_recom_list.agc_list5").slick({
+								dots: false,
+								arrows : false,
+								infinite: false,
+								slidesToShow: 5,
+								slidesToScroll: 5,
+								responsive: [
+									{
+										breakpoint: 959,
+										settings: {
+											slidesToShow: 4,
+											slidesToScroll: 4,
+										}
+									},
+									{
+										breakpoint: 600,
+										settings: {
+											slidesToShow: 3,
+											slidesToScroll: 3,
+										}
+									},
+									{
+										breakpoint: 500,
+										settings: {
+											slidesToShow: 1.7,
+											slidesToScroll: 1,
+										}
+									}
+								]
+							});
+						});
+					</script>
+				</div><!-- inner -->
+			</div><!-- agc_gray_box -->
+
+			<div class="inner">
+				<div class="agc_con_tit agc_no_border agc_ct_rong">
+					<h3>이 논문의 저자 정보</h3>
+				</div><!-- agc_con_tit -->
+				<div class="agc_write_list">
+					<ul>
+						<li>
+							<p class="agc_wl_pic"><img src="images/mem_pic.png" alt=""></p>
+							<div class="agc_wl_con">
+								<p class="agc_wl_name">김기영 <span>연세성공진리학업성취연세성공진리학업성취대학교연세성공진리학업성취대학교연세성공진리학업성취대학교대학교</span></p>
+								<div class="agc_wl_info">
+									<p class="agc_wl_schl"><b>소속기관</b><span>연세성공진리학업연세성공진리학업성취대학교연세성공진리학업성취대학교성취대학교</span></p>
+									<p><b>주요연구분야</b><span>사회과학 > 사회과학일반</span> <em>Top 1%</em></p>
+									<p><b></b><span>사회과학 > 사회과학일반</span> <em>Top 1%</em></p>
+								</div><!-- agc_wl_info -->
+								<hr>
+								<p class="agc_wl_count">
+									<span>논문수 13</span>
+									<span>이용수 14,402</span>
+								</p><!-- agc_wl_count -->
+							</div><!-- agc_wl_con -->
+						</li>
+						<li>
+							<p class="agc_wl_pic"><img src="images/mem_pic.png" alt=""></p>
+							<div class="agc_wl_con">
+								<p class="agc_wl_name">김기영 <span>연세성공진리학업성취대학교</span></p>
+								<div class="agc_wl_info">
+									<p class="agc_wl_schl"><b>소속기관</b><span>연세성공진리학업연세성공진리학업성취대학교연세성공진리학업성취대학교성취대학교</span></p>
+									<p><b>주요연구분야</b><span>사회과학 > 사회과학일반</span> <em>Top 1%</em></p>
+									<p><b></b><span>사회과학 > 사회과학일반</span> <em>Top 1%</em></p>
+								</div><!-- agc_wl_info -->
+								<hr>
+								<p class="agc_wl_count">
+									<span>논문수 13</span>
+									<span>이용수 14,402</span>
+								</p><!-- agc_wl_count -->
+							</div><!-- agc_wl_con -->
+						</li>
+						<li>
+							<p class="agc_wl_pic"><img src="images/mem_pic.png" alt=""></p>
+							<div class="agc_wl_con">
+								<p class="agc_wl_name">김기영 <span>연세성공진리학업성취대학교</span></p>
+								<div class="agc_wl_info">
+									<p class="agc_wl_schl"><b>소속기관</b><span>연세성공진리학업연세성공진리학업성취대학교연세성공진리학업성취대학교성취대학교</span></p>
+									<p><b>주요연구분야</b><span>사회과학 > 사회과학일반</span> <em>Top 1%</em></p>
+									<p><b></b><span>사회과학 > 사회과학일반</span> <em>Top 1%</em></p>
+								</div><!-- agc_wl_info -->
+								<hr>
+								<p class="agc_wl_count">
+									<span>논문수 13</span>
+									<span>이용수 14,402</span>
+								</p><!-- agc_wl_count -->
+							</div><!-- agc_wl_con -->
+						</li>
+					</ul>
+				</div><!-- agc_write_list -->
+				<p class="agc_text_view"><a href="#">전체보기 <img src="images/all_view.png" alt=""></a></p>
+
+				<div class="agc_con_tit agc_m_ctit">
+					<h3>이 논문과 함께 이용한 논문</h3>
+				</div><!-- agc_con_tit -->
+				<div class="agc_board_list">
+					<ul>
+						<li>
+							<a href="#">
+								<p class="agc_tit">대학생들의 취업정보 공유에 미치는 영향요인에 관한 연구</p>
+								<div>
+									<p>이소미, 서준영, 김혁진 외 3명</p>
+									<p>한국기술연합학술지</p>
+									<p>2021<span>. 11. 13</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="agc_tit">대학생들의 취업정보 공유에 미치는 영향요인에 관한 연구</p>
+								<div>
+									<p>이소미, 서준영, 김혁진 외 3명</p>
+									<p>한국기술연합학술지</p>
+									<p>2021<span>. 11. 13</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="agc_tit">대학생들의 취업정보 공유에 미치는 영향요인에 관한 연구</p>
+								<div>
+									<p>이소미, 서준영, 김혁진 외 3명</p>
+									<p>한국기술연합학술지</p>
+									<p>2021<span>. 11. 13</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="agc_tit">대학생들의 취업정보 공유에 미치는 영향요인에 관한 연구</p>
+								<div>
+									<p>이소미, 서준영, 김혁진 외 3명</p>
+									<p>한국기술연합학술지</p>
+									<p>2021<span>. 11. 13</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="agc_tit">대학생들의 취업정보 공유에 미치는 영향요인에 관한 연구</p>
+								<div>
+									<p>이소미, 서준영, 김혁진 외 3명</p>
+									<p>한국기술연합학술지</p>
+									<p>2021<span>. 11. 13</span></p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div><!-- agc_board_list -->
+
+				<div class="agc_con_tit agc_m_ctit">
+					<h3>이 논문을 인용한 논문</h3>
+				</div><!-- agc_con_tit -->
+				<div class="agc_board_list">
+					<ul>
+						<li>
+							<a href="#">
+								<p class="agc_tit">대학생들의 취업정보 공유에 미치는 영향요인에 관한 연구</p>
+								<div>
+									<p>이소미, 서준영, 김혁진 외 3명</p>
+									<p>한국기술연합학술지</p>
+									<p>2021<span>. 11. 13</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="agc_tit">대학생들의 취업정보 공유에 미치는 영향요인에 관한 연구</p>
+								<div>
+									<p>이소미, 서준영, 김혁진 외 3명</p>
+									<p>한국기술연합학술지</p>
+									<p>2021<span>. 11. 13</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="agc_tit">대학생들의 취업정보 공유에 미치는 영향요인에 관한 연구</p>
+								<div>
+									<p>이소미, 서준영, 김혁진 외 3명</p>
+									<p>한국기술연합학술지</p>
+									<p>2021<span>. 11. 13</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="agc_tit">대학생들의 취업정보 공유에 미치는 영향요인에 관한 연구</p>
+								<div>
+									<p>이소미, 서준영, 김혁진 외 3명</p>
+									<p>한국기술연합학술지</p>
+									<p>2021<span>. 11. 13</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="agc_tit">대학생들의 취업정보 공유에 미치는 영향요인에 관한 연구</p>
+								<div>
+									<p>이소미, 서준영, 김혁진 외 3명</p>
+									<p>한국기술연합학술지</p>
+									<p>2021<span>. 11. 13</span></p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div><!-- agc_board_list -->
+
+				<p class="agc_text_view"><a href="#">전체보기 <img src="images/all_view.png" alt=""></a></p>
+			</div><!-- inner -->
+
+			<div class="agc_gray_box">
+				<div class="inner">
+					<div class="agc_con_tit">
+						<h3>AI 논문 추천 <span>(13)</span></h3>
+						<h4>“이용자”님의 연구 패턴에 따라 AWS AI가 추천하는 논문입니다. 이용할수록 더욱 정확해지는 추천을 느껴보세요!</h4>
+					</div><!-- agc_con_tit -->
+					<section class="agc_recom_list agc_list4 regular slider">
+						<div>
+							<a href="#" class="agc_rl_box">
+								<img src="images/recom_img.png" alt="">
+								<p class="agc_rl_itit">대학생들의 취업정보 공유에 미치는 향요인에 관한 연구대학생들의 취업정보 공유 에 미치는 향요인에 관한 연구대학생들 의 취업정보 공유에 미치는  향요인에 관한 연구</p>
+							</a>
+						</div>
+						<div>
+							<a href="#" class="agc_rl_box">
+								<img src="images/recom_img.png" alt="">
+								<p class="agc_rl_itit">대학생들의 취업정보 공유에 미치는 향요인구</p>
+							</a>
+						</div>
+						<div>
+							<a href="#" class="agc_rl_box">
+								<img src="images/recom_img.png" alt="">
+								<p class="agc_rl_itit">대학생들의 취업정보 공유에 미치는 향요 연구</p>
+							</a>
+						</div>
+						<div>
+							<a href="#" class="agc_rl_box">
+								<img src="images/recom_img.png" alt="">
+								<p class="agc_rl_itit">대학생들의 취업정보 공유에 미치는 향요학생들 의 취업정보 공유에 미치는  향요인에 관한 연구</p>
+							</a>
+						</div>
+						<div>
+							<a href="#" class="agc_rl_box">
+								<img src="images/recom_img.png" alt="">
+								<p class="agc_rl_itit">대학생들의 취업정보 공유요인에 관한 연 관한 연구</p>
+							</a>
+						</div>
+						<div>
+							<a href="#" class="agc_rl_box">
+								<img src="images/recom_img.png" alt="">
+								<p class="agc_rl_itit">대학생들의 취업정보 공유에 미치는</p>
+							</a>
+						</div>
+						<div>
+							<a href="#" class="agc_rl_box">
+								<img src="images/recom_img.png" alt="">
+								<p class="agc_rl_itit">대학생들의 취업정보 공유에 미치는 향요인에 관한 연구대학생들의 취업정보 공유 에 미치는 향요인에 관한 연구대학생들 의 취업정보 공유에 미치는  향요인에 관한 연구</p>
+							</a>
+						</div>
+						<div>
+							<a href="#" class="agc_rl_box">
+								<img src="images/recom_img.png" alt="">
+								<p class="agc_rl_itit">대학생들의 취업정보 공유에 미치는 향요인에 관한 연구대학생들의 취업정보 공유 에 미치는 향요인에 관한 연구대학생들 의 취업정보 공유에 미치는  향요인에 관한 연구</p>
+							</a>
+						</div>
+					</section>
+
+					<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+					<script type="text/javascript">
+						$(document).on('ready', function() {
+							$(".agc_recom_list.agc_list4").slick({
+								dots: false,
+								infinite: false,
+								slidesToShow: 4,
+								slidesToScroll: 4,
+								responsive: [
+									{
+										breakpoint: 959,
+										settings: {
+											slidesToShow: 4,
+											slidesToScroll: 4,
+										}
+									},
+									{
+										breakpoint: 800,
+										settings: {
+											slidesToShow: 3,
+											slidesToScroll: 3,
+										}
+									},
+									{
+										breakpoint: 600,
+										settings: {
+											slidesToShow: 2.4,
+											slidesToScroll: 2,
+										}
+									},
+									{
+										breakpoint: 500,
+										settings: {
+											slidesToShow: 1.5,
+											slidesToScroll: 1,
+										}
+									}
+								]
+							});
+						});
+					</script>
+				</div><!-- inner -->
+			</div><!-- agc_gray_box -->
+
+
+			<div class="inner">
+				<div class="agc_con_tit agc_no_border agc_m_ctit">
+					<h3>
+						최근 본 자료
+						<a href="#">전체보기</a>
+					</h3>
+				</div><!-- agc_con_tit -->
+				<div class="agc_board_list">
+					<ul>
+						<li>
+							<a href="#">
+								<p class="agc_tit">대학생들의 취업정보 공유에 미치는 영향요인에 관한 연구</p>
+								<div>
+									<p>이소미, 서준영, 김혁진 외 3명</p>
+									<p>한국기술연합학술지</p>
+									<p>2021<span>. 11. 13</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="agc_tit">대학생들의 취업정보 공유에 미치는 영향요인에 관한 연구</p>
+								<div>
+									<p>이소미, 서준영, 김혁진 외 3명</p>
+									<p>한국기술연합학술지</p>
+									<p>2021<span>. 11. 13</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="agc_tit">대학생들의 취업정보 공유에 미치는 영향요인에 관한 연구</p>
+								<div>
+									<p>이소미, 서준영, 김혁진 외 3명</p>
+									<p>한국기술연합학술지</p>
+									<p>2021<span>. 11. 13</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="agc_tit">대학생들의 취업정보 공유에 미치는 영향요인에 관한 연구</p>
+								<div>
+									<p>이소미, 서준영, 김혁진 외 3명</p>
+									<p>한국기술연합학술지</p>
+									<p>2021<span>. 11. 13</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="agc_tit">대학생들의 취업정보 공유에 미치는 영향요인에 관한 연구</p>
+								<div>
+									<p>이소미, 서준영, 김혁진 외 3명</p>
+									<p>한국기술연합학술지</p>
+									<p>2021<span>. 11. 13</span></p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div><!-- agc_board_list -->
+
+				<div class="agc_banner">
+					<a href="#"><img src="images/banner1.png" alt=""></a>
+				</div><!-- agc_banner -->
+
+				<div class="agc_con_tit agc_ct_reply">
+					<h3>댓글 <span>(32)</span></h3>
+				</div><!-- agc_con_tit -->
+				<div class="agc_reply_add">
+					<div class="agc_reply_write">
+						<form>
+							<div class="agc_reply_left">
+								<p class="agc_reply_nicname">Ke***34</p>
+								<textarea placeholder="연구자님의 리뷰를 남겨주세요. 작성해주신 댓글은 연구자에게 도움이 될 수 있습니다."></textarea>
+							</div><!-- agc_reply_left -->
+							<div class="agc_reply_right">
+								<p class="agc_reply_open">작성 시 유의사항 <img src="images/help_icon.png" alt=""></p><br>
+								<button>등록</button>
+								<div class="agc_reply_notice">
+									<h4>댓글 작성 시 유의사항</h4>
+									<p>DBpia는 표현의 자유를 존중함과 동시에 타인의 권리를 침해하거나 명예를 훼손하는 내용은 제한합니다. 아래의 내용이 포함된 글은 댓글 목록에서 보이지 않을 수 있습니다.</p>
+									<ol>
+										<li><b>1.</b>논문 리뷰 성격에서 현저히 벗어난 내용</li>
+										<li><b>2.</b>논문 리뷰 성격 보다는 타인의 글에 대한 반박이나 논쟁을 유발하는 내용이 주를 이루는 내용</li>
+										<li><b>3.</b>인신공격, 명예훼손, 특정인/종교/계층을 비방하는 내용, 혐오·차별·비하·모욕적인 표현</li>
+										<li><b>4.</b>비속어를 사용하거나 불쾌감을 주는 내용</li>
+										<li><b>5.</b>짧은 의태어나 의성어로만 작성된 글이나 반복적인 내용</li>
+									</ol>
+									<a class="agc_reply_close"><img src="images/close_btn.png" alt=""></a>
+								</div><!-- agc_reply_notice -->
+							</div><!-- agc_reply_right -->
+						</form>
+					</div><!-- agc_reply_write -->
+					<p class="agc_rp_count">0 / 1000 byte</p>
+				</div><!-- agc_reply_add -->
+				<div class="agc_reply_list">
+					<ul>
+						<li>
+							<p class="agc_reply_text">추천하고 싶은 논문이에요.</p>
+							<div class="agc_reply_info">
+								<span>Ke***34</span>
+								<span>2021-01-12</span>
+							</div><!-- agc_reply_info -->
+							<div class="agc_reply_option">
+								<p class="agc_ro_open"></p>
+								<ul>
+									<li><a href="#">수정</a></li>
+									<li><a href="#">삭제</a></li>
+									<li><a href="#">신고</a></li>
+								</ul>
+							</div><!-- agc_reply_option -->
+						</li>
+						<li>
+							<p class="agc_reply_text">추천하고 싶은 논문이에요.</p>
+							<div class="agc_reply_info">
+								<span>Ke***34</span>
+								<span>2021-01-12</span>
+							</div><!-- agc_reply_info -->
+							<div class="agc_reply_option">
+								<p class="agc_ro_open"></p>
+								<ul>
+									<li><a href="#">수정</a></li>
+									<li><a href="#">삭제</a></li>
+									<li><a href="#">신고</a></li>
+								</ul>
+							</div><!-- agc_reply_option -->
+						</li>
+						<li class="agc_rw_edit">
+							<div class="agc_reply_write">
+								<form>
+									<div class="agc_reply_left">
+										<p class="agc_reply_nicname">Ke***34</p>
+										<textarea>추천하고 싶은 논문이에요</textarea>
+									</div><!-- agc_reply_left -->
+									<div class="agc_reply_right">
+										<p class="agc_reply_open">작성 시 유의사항 <img src="images/help_icon.png" alt=""></p><br>
+										<button>수정</button>
+										<div class="agc_reply_notice">
+											<h4>댓글 작성 시 유의사항</h4>
+											<p>DBpia는 표현의 자유를 존중함과 동시에 타인의 권리를 침해하거나 명예를 훼손하는 내용은 제한합니다. 아래의 내용이 포함된 글은 댓글 목록에서 보이지 않을 수 있습니다.</p>
+											<ol>
+												<li><b>1.</b>논문 리뷰 성격에서 현저히 벗어난 내용</li>
+												<li><b>2.</b>논문 리뷰 성격 보다는 타인의 글에 대한 반박이나 논쟁을 유발하는 내용이 주를 이루는 내용</li>
+												<li><b>3.</b>인신공격, 명예훼손, 특정인/종교/계층을 비방하는 내용, 혐오·차별·비하·모욕적인 표현</li>
+												<li><b>4.</b>비속어를 사용하거나 불쾌감을 주는 내용</li>
+												<li><b>5.</b>짧은 의태어나 의성어로만 작성된 글이나 반복적인 내용</li>
+											</ol>
+											<a class="agc_reply_close"><img src="images/close_btn.png" alt=""></a>
+										</div><!-- agc_reply_notice -->
+									</div><!-- agc_reply_right -->
+								</form>
+							</div><!-- agc_reply_write -->
+							<p class="agc_rp_count">24 / 1000 byte</p>
+						</li>
+						<li>
+							<p class="agc_reply_text">추천하고 싶은 논문이에요.</p>
+							<div class="agc_reply_info">
+								<span>Ke***34</span>
+								<span>2021-01-12</span>
+							</div><!-- agc_reply_info -->
+							<div class="agc_reply_option">
+								<p class="agc_ro_open"></p>
+								<ul>
+									<li><a href="#">수정</a></li>
+									<li><a href="#">삭제</a></li>
+									<li><a href="#">신고</a></li>
+								</ul>
+							</div><!-- agc_reply_option -->
+						</li>
+					</ul>
+				</div><!-- agc_reply_list -->
+
+			</div><!-- inner -->
+		</div>
+    </div><!-- 콘텐츠 (끝) -->
+
+	<div class="agc_fixed_noti">
+		<span>모바일 헬스케어 어플리케이션의 지속적 사용 결정 요인의 지속적 사용 결정 요인의 지속적 사용요인의 지속적 사용 결정 요인의 지속적 사용요인의 지속적 사용 결정 요인의 지속적 사용</a></span>
+		<div class="agc_fn_btns">
+			<a href="#" class="agc_fn_bmark"></a>
+			<a href="#" class="agc_fn_bmark agc_active"></a>
+			<a href="#" class="agc_fn_down"></a>
+			<a href="#" class="agc_fn_book"></a>
+			<a href="#" class="agc_fn_share"></a>
+		</div><!-- agc_fn_btns -->
+	</div><!-- agc_fixed_noti -->
+
+	<div class="agc_mobile_btns">
+		<div class="agc_mb_wrap">
+			<a href="#" class="agc_btn_bmark"><span>북마크</span></a>
+			<a href="#" class="agc_btn_down"><span>다운받기</span></a>
+			<a href="#" class="agc_btn_view"><span>논문보기</span></a>
+		</div><!-- agc_mb_wrap -->
+		<div class="agc_mb_wrap">
+			<div class="agc_link_msg">
+				외부링크는 웹에서만 확인할 수 있습니다.
+			</div><!-- agc_link_msg -->
+			<a href="#" class="agc_btn_bmark agc_active"><span>북마크</span></a>
+			<a class="agc_btn_link"><span>외부링크</span></a>
+		</div><!-- agc_mb_wrap -->
+	</div><!-- agc_mobile_btns -->
+
+	<div class="agc_pop_bg"></div>
+	<script type="text/javascript" src="_js/agc_custom.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+	<script src="_js/slick.js" type="text/javascript" charset="utf-8"></script>
+	<!-- jinstar end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 푸터 (시작) -->
+<div class="footer" id="footer">
+<div class="footer footDetail pb" id="footer">
+<div class="ftwrap">
+<div class="fttop">
+<div class="inner">
+<ul class="ftmenu">
+<li class="menu"><a href="/intro/dbpia" target="_blank"
+onclick="fn_statistics('A146', '', '')"
+title="새창열림">DBpia 소개</a>
+</li>
+<li class="menu"><a href="/link/agreement" target="_blank" title="새창열림"
+onclick="fn_statistics('A114', '', '')">이용약관</a></li>
+<li class="menu"><a href="/link/privacy" target="_blank" title="새창열림"><span class="f-bold"
+   onclick="fn_statistics('A115', '', '')">개인정보처리방침</span></a></li>
+<li class="menu"><a href="#none"
+onclick="fnContact();fn_statistics('A152', '', '')">제휴문의</a></li>
+<li class="menu"><a href="/trial/trial"
+onclick="fn_statistics('A116', '', '')">트라이얼신청</a></li>
+</ul>
+<div class="family">
+<button id="spreadBtn02" type="button" class="open" title="유관사이트 닫기">유관사이트</button>
+<ul id="hiddenList01" class="scrollbar">
+<li><a href="http://www.nurimedia.co.kr" target="_blank" title="새창열림">누리미디어</a></li>
+<li><a href="http://krpia.co.kr" target="_blank" title="새창열림">KRpia</a></li>
+<li><a href="http://api.dbpia.co.kr/openApi/index.do" target="_blank" title="새창열림">DBpia Open
+API</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="ftbottom">
+<div class="btline"></div>
+<div class="inner buttom">
+<ul class="info">
+<li>㈜누리미디어 대표이사: 최순일 사업자등록번호: 816-81-00840</li>
+<li><span>통신판매업신고번호: 제2017-서울영등포-0801호 </span><span>대표전화: <a href="tel:02-707-0496">02-707-0496</a> 팩스: 02-717-4305</span></li>
+<li><span>이메일: <a
+href="mailto:dbpia@nurimedia.co.kr">dbpia@nurimedia.co.kr</a></span><span
+class="next">주소: (07281) 서울특별시 영등포구 선유로 63, 4층 (문래동 6가)</span></li>
+<div class="copy">
+<p class="copyright">Copyright (c) 1997-2021 NURIMEDIA. ALL RIGHTS RESERVED.</p>
+</div>
+<div class="bnWrap">
+<ul class="banner">
+<li><a href="javascript:popupOpenCerti();" class="bn-GCS"></a></li>
+<li><a href="https://www.kcopa.or.kr/lay1/S1T356C360/contents.do" target="_blank" class="Right-Ok"></a></li>
+<li><a href="http://www.kepa.or.kr/" target="_blank" class="kepa"></a></li>
+<li><a href="https://aws.amazon.com/ko/what-is-aws/?nc1=f_cc" target="_blank" class="aws"></a></li>
+<li><a href="javascript:popupOpenisms();" class="isms-p"></a></li>
+</ul>
+</div>
+</ul>
+<div class="info right">
+<ul class="helpcont">
+<li class="Contact">
+<p class="helptit"><a href="/notice/userGuide"
+target="_blank">고객센터</a><span class="phone"><a
+href="tel:02-707-0496">02-707-0496</a></span></p>
+<span class="email"><a href="mailto:dbpia@nurimedia.co.kr">dbpia@nurimedia.co.kr</a></span>
+</li>
+<li class="operation">
+<span class="time">평일 9시~18시 공휴일 휴무</span>
+</li>
+</ul>
+<div class="Notice">
+<span class="notigo"><a href="/notice/noticeList"
+target="_blank">공지사항 바로가기</a></span>
+</div>
+<div class="ft_sns">
+<ul class="sns">
+<li><a href="https://post.naver.com/nurimedia0?isHome=1" target="_blank"
+class="post"><span class="blind">post</span></a></li>
+<li><a href="https://www.instagram.com/dbpia_insta/?hl=ko" target="_blank"
+class="instagram"><span class="blind">instagram</span></a></li>
+<li><a href="https://www.youtube.com/channel/UCS2wly5baSCi1pJ9WwMajxw" target="_blank"
+class="youtube"><span class="blind">youtube</span></a></li>
+<li><a href="https://blog.naver.com/nurimedia0" target="_blank"
+class="blog"><span class="blind">blog</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="pub_modalContact" class="modal" style="max-width:526px;">
+<span class="modalScreen"></span>
+<div class="modalContent">
+<div class="modalHeader">
+<p class="tit">제휴문의</p>
+<button class="closeModal" id="#pub_modalContact"><span class="blind">닫기</span></button>
+</div>
+<div class="modalBody type02">
+<p class="comtBox type02">
+DBpia와 구독·저작권 계약, 기타 제휴를 원하시면 해당 부서로 연락 바랍니다.
+</p>
+<dl class="contactBox">
+<dt class="tit">콘텐츠 구독 계약 문의</dt>
+<dd class="cont">
+<p class="w50per">
+<span class="text">담당부서 : 영업기획팀</span>
+<span class="text">&#40;4년제 대학교, 해외 도서관&#41;</span>
+<a href="mailto:sales@nurimedia.co.kr">sales@nurimedia.co.kr</a>
+</p>
+<p class="w50per">
+<span class="text">담당부서 : 전문영업팀</span>
+<span class="text">&#40;공공기관, 국책연구원, 기업, 전문대학&#41;</span>
+<a href="mailto:gnc@nurimedia.co.kr">gnc@nurimedia.co.kr</a>
+</p>
+</dd>
+</dl>
+<dl class="contactBox half brNone">
+<dt class="tit">저작권 계약 문의</dt>
+<dd class="cont">
+<p>
+<span class="text">담당부서 : 콘텐츠 영업팀</span>
+<a href="mailto:copyright@nurimedia.co.kr">copyright@nurimedia.co.kr</a>
+</p>
+</dd>
+</dl>
+<dl class="contactBox half">
+<dt class="tit">기타 제휴 문의</dt>
+<dd class="cont">
+<p>
+<span class="text">담당부서 : 서비스 기획팀</span>
+<a href="mailto:dbpia@nurimedia.co.kr">dbpia@nurimedia.co.kr</a>
+</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+</div><!-- 푸터 (끝) -->
+</div>
+</body>
+</html>
