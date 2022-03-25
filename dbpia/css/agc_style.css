@@ -832,6 +832,7 @@ transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg)
 
 	.agc_prec_list.type1 {position: relative;overflow: visible;}
 	.agc_prec_list.type1 .swiper-btn-wrap {display: none;}
+	.agc_prec_list .swiper-slide{ width: 200px;height: 240px;}
 
 }
 
