@@ -91,7 +91,11 @@ html *{ font-family: 'Noto Sans KR', sans-serif !important;}
 .agc_writer ul li:hover{ transform:translate(0, 2px); -webkit-transform:translate(0, 2px); -o-transform:translate(0, 2px); -ms-transform:translate(0, 2px); border-bottom-color:#165C92; box-shadow:2px 2px 5px rgba(0,0,0,0.2);}
 .agc_writer ul li strong{ display:block; font-size:16px; color:#165C92; margin-bottom:4px; line-height:23px; max-height:46px; overflow:Hidden;}
 .agc_writer ul li strong br{ display:none;}
-.agc_writer ul li b{ display:block; font-size:13px; color:#666; height:40px; line-height:20px; overflow:hidden; font-weight:normal;}
+.agc_writer ul li b{ display:block; font-size:13px; color:#666; max-height:40px; line-height:20px; overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;}
 .agc_writer ul li p{ font-size:12px; color:#999; margin-top:13px; position:absolute; left:10px; right:10px; bottom:10px;}
 .agc_writer ul li p span{ display:inline-block; margin:0 5px;}
 .agc_writer ul li p.agc_wrt_class{ bottom:30px; max-height:30px; overflow:Hidden;}
@@ -164,7 +168,11 @@ span.agc_cus_checkbox{ width:15px; height:15px;}
 .agc_list_body > ul > li .agc_lb_con .agc_lb_tit{ margin-bottom:15px; font-size:18px; color:#111; font-weight:500; line-height:26px; letter-spacing:-0.04em;}
 .agc_list_body > ul > li .agc_lb_con .agc_lbc_link:hover .agc_lb_tit{ text-decoration:underline;}
 .agc_list_body > ul > li .agc_lb_con .agc_lb_tit span{ color:#CC4736;}
-.agc_list_body > ul > li .agc_lb_con .agc_lb_sjt{ margin-bottom:15px; line-height:19px; height:38px; overflow:Hidden; font-size:13px; color:#999;}
+.agc_list_body > ul > li .agc_lb_con .agc_lb_sjt{ margin-bottom:15px; line-height:19px; max-height:38px; overflow:Hidden; font-size:13px; color:#999;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;}
 .agc_list_body > ul > li .agc_lb_con .agc_lb_sjt span{ color:#CC4736;}
 .agc_list_body > ul > li .agc_lb_con .agc_lb_tag{ margin-bottom:20px;}
 .agc_list_body > ul > li .agc_lb_con .agc_lb_tag ul{ overflow:Hidden; text-overflow:ellipsis; white-space:nowrap; max-width:99%;}
