@@ -312,7 +312,7 @@ transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg)
 .agc_write_box ul li{ font-size:14px; color:#666; margin-bottom:12px; line-height:20px;}
 .agc_write_box ul li a{ color:#3C63E0; font-weight:normal;}
 .agc_write_box ul li p{ display:inline-block;}
-.agc_write_box ul li span{ display:inline-block; font-size:14px; color:#666; max-width:200px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; vertical-align:top;}
+.agc_write_box ul li span{ display:inline-block; font-size:14px; color:#666;vertical-align:top;}
 .agc_journal ul li{ color:#111;}
 .agc_wb_img{ width:20%; text-align:right; padding-right:0;}
 .agc_wb_img a{ display:inline-block;}
@@ -426,6 +426,7 @@ transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg)
 .agc_prec_count{ text-align:right; color:#666; font-size:14px; margin:0 0 12px;}
 
 .agc_prec_list{ margin-bottom:30px;}
+/* slick */
 .agc_prec_list .slick-slide{ position:relative; box-sizing:border-box; border:1px solid #ddd; border-radius:20px; padding:20px 20px 105px; margin:0 10px;}
 .agc_prec_list .slick-slide:hover{ background-color:#fafafa; border-color:#aaa;}
 .agc_prec_list .agc_pl_tit{ color:#111; font-size:16px; height:48px; line-height:24px; overflow:Hidden; margin-bottom:6px; display:inline-block; text-decoration:none;}
@@ -433,6 +434,42 @@ transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg)
 .agc_prec_list .agc_pl_more{ color:#3C63E0; display:inline-block; font-size:12px; padding-right:10px; position:absolute; bottom:17px; right:20px; background:url('../images/prec_more.png') 95% 63% no-repeat; text-decoration:none;}
 .agc_prec_list .slick-slide:hover .agc_pl_more{ text-decoration:underline;}
 
+
+
+/* swiper js */
+.agc_prec_list.type1 {position: relative;}
+/* .agc_prec_list.type1 .swiper-container {overflow: hidden;position: relative;} */
+.agc_prec_list .swiper-slide{ position:relative; box-sizing:border-box; border:1px solid #ddd; border-radius:20px; padding:20px 20px 105px; margin:0;width: 255px;margin-right: 20px;}
+.agc_prec_list .swiper-slide:last-child {margin-right: 0;}
+.agc_prec_list .swiper-slide:hover{ background-color:#fafafa; border-color:#aaa;}
+.agc_prec_list .agc_pl_tit{ color:#111; font-size:16px; height:48px; line-height:24px; overflow:Hidden; margin-bottom:6px; display:inline-block; text-decoration:none;}
+.agc_prec_list .agc_pl_sjt{ font-size:13px; color:#999; line-height:19px; height:114px; overflow:Hidden; text-decoration:none;}
+.agc_prec_list .agc_pl_more{ color:#3C63E0; display:inline-block; font-size:12px; padding-right:10px; position:absolute; bottom:17px; right:20px; background:url('../images/prec_more.png') 95% 63% no-repeat; text-decoration:none;}
+.agc_prec_list .swiper-slide:hover .agc_pl_more{ text-decoration:underline;}
+.agc_prec_list.type1 .swiper-btn-wrap {position: absolute;left: 0;top:50%;width: 100%;}
+.agc_prec_list.type1 .swiper-pagination {position: absolute;left:auto;right: 0;top:-40px;bottom:auto;width: auto;}
+.agc_prec_list.type1 .swiper-pagination .swiper-pagination-current {font-weight: 500;}
+.agc_prec_list .swiper-button-next.swiper-button-disabled, 
+.agc_prec_list .swiper-button-prev.swiper-button-disabled {display: none;}
+.agc_prec_list .swiper-button-next, 
+.agc_prec_list .swiper-button-prev {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;;
+}
+.agc_prec_list .swiper-button-next::after, 
+.agc_prec_list .swiper-button-prev::after {
+	display: none;
+}
+.agc_prec_list .swiper-button-next {
+	background: url(../images/sl_next.png) no-repeat 0 0 / cover;
+	right: -50px;
+}
+
+.agc_prec_list .swiper-button-prev {
+	background: url(../images/sl_prev.png) no-repeat 0 0 / cover;
+	left: -50px;
+}
 .agc_prec_pop{ display:none; position:fixed; top:30%; left:0; right:0; bottom:0; z-index:1010;}
 .agc_prec_pop.agc_active{ display:block;}
 .agc_pp_inner{ position:relative; width:600px; margin:0 auto; background-color:#fff; padding:20px; font-size:14px; color:#666;}
@@ -733,6 +770,7 @@ transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg)
 	.agc_recom_list .agc_rl_box img{ width:100%;}
 	.agc_recom_list .agc_rl_tit{ font-size:14px; line-height:20px; height:80px;}
 	.agc_recom_list .agc_rl_itit{ font-size:14px; line-height:20px; height:60px;}
+	
 
 	.agc_hide_textarea{ max-height:280px;}
 
@@ -791,6 +829,9 @@ transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg)
 
 	.agc_fixed_noti{ display:none;}
 	.agc_fixed_noti.agc_active{ display:none;}
+
+	.agc_prec_list.type1 {position: relative;overflow: visible;}
+	.agc_prec_list.type1 .swiper-btn-wrap {display: none;}
 
 }
 
