@@ -1262,7 +1262,7 @@ readonly="readonly">누리미디어는 개인정보 관련 법률(개인정보�
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
                     </div>
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination" id="slidePagin"></div>
 
 				</section>
 
@@ -1811,41 +1811,48 @@ readonly="readonly">누리미디어는 개인정보 관련 법률(개인정보�
 	<div class="agc_pop_bg"></div>
 	<script type="text/javascript" src="js/agc_custom.js"></script>
 	<!-- <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script> -->
-	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+	<!-- <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/> -->
 
 	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
 
 	<script type="text/javascript">
-		var swiper = new Swiper(".mySwiper", {
 
-            slidesPerView: 'auto',
-            freeMode: true,
-            pagination: {
-                el: ".type1 .swiper-pagination",
-                type: 'fraction',
+	
 
-                // type: 'custom',
-                // renderCustom: function (swiper, current, index) {
-                //     console.log(swiper, current, index);
-                //     return current + '/' + (index - 1);
-                // }
-            },
-            navigation: {
-                nextEl: ".type1 .swiper-button-next",
-                prevEl: ".type1 .swiper-button-prev",
-            },
-            breakpoints: {
-                960: {
-                    // loop:true,
-                    freeMode: false,
-                    slidesPerGroup: 4,
-                    touchRatio: 0,//드래그 금지
-                    speed : 1000,
-                    fillGroupWithBlank : true,
-                },
-            },
-        });
+	document.addEventListener( "DOMContentLoaded", function() {
+		var aSlider = new Slider( "#slider" );		
+	});
+	
+
+		// var swiper = new Swiper(".mySwiper", {
+		// 	observer: true,
+		// 	observeParents: true,
+        //     slidesPerView: 'auto',
+        //     freeMode: true,
+        //     pagination: {
+        //         el: ".type1 .swiper-pagination",
+        //         type: 'fraction',
+        //     },
+        //     navigation: {
+        //         nextEl: ".type1 .swiper-button-next",
+        //         prevEl: ".type1 .swiper-button-prev",
+        //     },
+        //     breakpoints: {
+        //         960: {
+        //             observer: true,
+		// 			observeParents: true,
+        //             freeMode: false,
+        //             slidesPerGroup: 4,
+		// 			slidesPerView: 4,
+        //             touchRatio: 0,//드래그 금지
+        //             speed : 1000,
+		// 			spaceBetween: 20,
+        //             loopFillGroupWithBlank : true,
+		// 			loop:true,
+        //         },
+        //     },
+        // });
 	</script>
 	<!-- jinstar end -->
 

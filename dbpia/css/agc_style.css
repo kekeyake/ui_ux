@@ -439,37 +439,38 @@ transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg)
 /* swiper js */
 .agc_prec_list.type1 {position: relative;}
 /* .agc_prec_list.type1 .swiper-container {overflow: hidden;position: relative;} */
-.agc_prec_list .swiper-slide{ position:relative; box-sizing:border-box; border:1px solid #ddd; border-radius:20px; padding:20px 20px 105px; margin:0;width: 255px;margin-right: 20px;}
-.agc_prec_list .swiper-slide:last-child {margin-right: 0;}
-.agc_prec_list .swiper-slide:hover{ background-color:#fafafa; border-color:#aaa;}
-.agc_prec_list .agc_pl_tit{ color:#111; font-size:16px; height:48px; line-height:24px; overflow:Hidden; margin-bottom:6px; display:inline-block; text-decoration:none;}
-.agc_prec_list .agc_pl_sjt{ font-size:13px; color:#999; line-height:19px; height:114px; overflow:Hidden; text-decoration:none;}
-.agc_prec_list .agc_pl_more{ color:#3C63E0; display:inline-block; font-size:12px; padding-right:10px; position:absolute; bottom:17px; right:20px; background:url('../images/prec_more.png') 95% 63% no-repeat; text-decoration:none;}
-.agc_prec_list .swiper-slide:hover .agc_pl_more{ text-decoration:underline;}
+
+.agc_prec_list.type1 .swiper {overflow: hidden;}
+.agc_prec_list.type1 .swiper .swiper-wrapper {display: flex;width: max-content;}
+.agc_prec_list.type1 .swiper-slide{ position:relative; box-sizing:border-box; border:1px solid #ddd; border-radius:20px; padding:20px 20px 105px; margin:0;width: 255px;margin-right: 20px;}
+.agc_prec_list.type1 .swiper-slide:last-child {margin-right: 0;}
+.agc_prec_list.type1 .swiper-slide:hover{ background-color:#fafafa; border-color:#aaa;}
+
+.agc_prec_list.type1 .agc_pl_tit{ color:#111; font-size:16px; height:48px; line-height:24px; overflow:Hidden; margin-bottom:6px; display:inline-block; text-decoration:none;}
+.agc_prec_list.type1 .agc_pl_sjt{ font-size:13px; color:#999; line-height:19px; height:114px; overflow:Hidden; text-decoration:none;}
+.agc_prec_list.type1 .agc_pl_more{ color:#3C63E0; display:inline-block; font-size:12px; padding-right:10px; position:absolute; bottom:17px; right:20px; background:url('../images/prec_more.png') 95% 63% no-repeat; text-decoration:none;}
+.agc_prec_list.type1 .swiper-slide:hover .agc_pl_more{ text-decoration:underline;}
+
 .agc_prec_list.type1 .swiper-btn-wrap {position: absolute;left: 0;top:50%;width: 100%;}
 .agc_prec_list.type1 .swiper-pagination {position: absolute;left:auto;right: 0;top:-40px;bottom:auto;width: auto;}
 .agc_prec_list.type1 .swiper-pagination .swiper-pagination-current {font-weight: 500;}
+
 .agc_prec_list .swiper-button-next.swiper-button-disabled, 
 .agc_prec_list .swiper-button-prev.swiper-button-disabled {display: none;}
 .agc_prec_list .swiper-button-next, 
-.agc_prec_list .swiper-button-prev {
-	width: 40px;
-    height: 40px;
-    margin-top: -20px;;
-}
+.agc_prec_list .swiper-button-prev {width: 40px;height: 40px;margin-top: -20px;position: absolute;cursor: pointer;}
 .agc_prec_list .swiper-button-next::after, 
-.agc_prec_list .swiper-button-prev::after {
-	display: none;
-}
-.agc_prec_list .swiper-button-next {
-	background: url(../images/sl_next.png) no-repeat 0 0 / cover;
-	right: -50px;
-}
+.agc_prec_list .swiper-button-prev::after {display: none;}
+.agc_prec_list .swiper-button-next {background: url(../images/sl_next.png) no-repeat 0 0 / cover;right: -50px;}
+.agc_prec_list .swiper-button-prev {background: url(../images/sl_prev.png) no-repeat 0 0 / cover;left: -50px;}
 
-.agc_prec_list .swiper-button-prev {
-	background: url(../images/sl_prev.png) no-repeat 0 0 / cover;
-	left: -50px;
-}
+
+
+
+
+
+
+
 .agc_prec_pop{ display:none; position:fixed; top:30%; left:0; right:0; bottom:0; z-index:1010;}
 .agc_prec_pop.agc_active{ display:block;}
 .agc_pp_inner{ position:relative; width:600px; margin:0 auto; background-color:#fff; padding:20px; font-size:14px; color:#666;}
@@ -831,8 +832,10 @@ transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg)
 	.agc_fixed_noti.agc_active{ display:none;}
 
 	.agc_prec_list.type1 {position: relative;overflow: visible;}
+	.agc_prec_list.type1 .swiper {overflow: hidden;overflow-x: auto;}
 	.agc_prec_list.type1 .swiper-btn-wrap {display: none;}
 	.agc_prec_list .swiper-slide{ width: 200px;height: 240px;}
+	.agc_prec_list.type1 .swiper-pagination {display: none;}
 
 }
 
