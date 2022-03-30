@@ -679,10 +679,14 @@ transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg)
 	.agc_list_body > ul > li .agc_lb_con .agc_lb_tit span{ color:#EF4348;}
 	.agc_list_body > ul > li .agc_lb_con .agc_lb_sjt{ display:none;}
 	.agc_list_body > ul > li .agc_lb_con .agc_lb_info{ margin-top:20px;}
+	.agc_list_body > ul > li .agc_lb_con .agc_lb_info .agc_info_list {position: absolute;left:0;bottom:10px;}
 	.agc_list_body > ul > li .agc_lb_con .agc_lb_info ul li{ font-size:13px; display:none; float:none; line-height:19px;}
+	.agc_list_body > ul > li .agc_lb_con .agc_lb_info ul li.agc_user {display: block;float:left;font-size: 12px;}
+	.agc_list_body > ul > li .agc_lb_con .agc_lb_info ul li.agc_info_top {display: block;float:left;font-size: 12px;}
 	.agc_list_body > ul > li .agc_lb_con .agc_lb_info ul li.agc_m_view{ display:inline-block;}
 	.agc_list_body > ul > li .agc_lb_con .agc_lb_info ul li.agc_m_date{ margin:0; padding:0;}
 	.agc_list_body > ul > li .agc_lb_con .agc_lb_info ul li.agc_m_date:after{ display:none;}
+	.agc_list_body > ul > li .agc_lb_con .agc_lb_info ul li a {font-size: 13px;}
 	.agc_list_body > ul > li .agc_lb_con .agc_lb_tag{ display:none;}
 	.agc_list_body > ul > li .agc_lb_con .agc_list_iconbox{ position:initial; text-align:Right; border-top:1px solid #f5f5f5; width:auto; line-height:22px; padding:10px 0; margin-top:4px;}
 	.agc_list_body > ul > li .agc_lb_con .agc_list_iconbox p{ display:inline-block; float:left; font-size:12px; color:#666; padding-top:3px;}
