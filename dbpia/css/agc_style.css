@@ -311,8 +311,8 @@ transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg)
 .agc_write_box ul{ }
 .agc_write_box ul li{ font-size:14px; color:#666; margin-bottom:12px; line-height:20px;}
 .agc_write_box ul li a{ color:#3C63E0; font-weight:normal;}
-.agc_write_box ul li p{ display:inline-block;}
-.agc_write_box ul li span{ display:inline-block; font-size:14px; color:#666;vertical-align:top;}
+.agc_write_box ul li span {font-size:14px; color:#666;vertical-align:top;word-break: keep-all;}
+.agc_write_box ul li::after {content: '';display: block;clear: both;}
 .agc_journal ul li{ color:#111;}
 .agc_wb_img{ width:20%; text-align:right; padding-right:0;}
 .agc_wb_img a{ display:inline-block;}
@@ -338,11 +338,12 @@ transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg)
 .agc_write_info ul li{ display:inline-block; margin-right:20px;}
 .agc_write_info ul li a{ color:#3C63E0; font-weight:bold;}
 
-.agc_con_tit{ margin:40px 0 20px; padding-top:30px; border-top:2px solid #EFEFEF;}
+.agc_con_tit{ margin:40px 0 10px; padding-top:30px; }
 .agc_con_tit.agc_no_border{ border-top:0;}
 .agc_con_tit.agc_ct_rong{ }
 .agc_gray_box .agc_con_tit{ margin-top:0; padding-bottom:0; border:0; margin-bottom:16px;}
-.agc_con_tit h3{ font-size:18px; color:#111; position:relative;}		
+.agc_con_tit h3{ font-size:18px; color:#111; position:relative;padding-bottom: 10px;border-bottom: 1px solid #EFEFEF;}
+.agc_gray_box .agc_con_tit h3 {border-bottom: 0 solid #000;}
 .agc_gray_box .agc_con_tit h3{ margin-bottom:17px;}
 .agc_gray_box .agc_con_tit h4{ font-size:16px; color:#999; font-weight:normal;}
 .agc_con_tit span{ color:#CC4736;}
@@ -527,6 +528,7 @@ transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg)
 .agc_banner{ margin:40px 0;}
 
 .agc_ct_reply{ border:0;}
+.agc_ct_reply h3 {border-bottom: 0 solid #000;}
 .agc_reply_add{ padding:30px; background-color:#FAFAFA; font-size:14px; color:#666;}
 .agc_reply_write{ height:110px; margin-bottom:10px;}
 .agc_reply_write .agc_reply_left{ border:1px solid #EFEFEF; height:110px; float:left; width:calc(100% - 140px); padding:10px; font-size:14px; background-color:#fff;}
@@ -672,7 +674,7 @@ transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg)
 	.agc_list_body > ul > li{ padding:17px 0 0; min-height:auto; background-color:#fff; margin-bottom:20px; border-color:#ddd;}
 	.agc_list_body > ul > li .agc_lb_chk{ display:none;}
 	.agc_list_body > ul > li .agc_lb_con{ width:auto; float:none; padding:0;}
-	.agc_list_body > ul > li .agc_lb_con .agc_lb_tit{ margin-bottom:20px;}
+	.agc_list_body > ul > li .agc_lb_con .agc_lb_tit{ margin-bottom:20px;font-size: 16px;}
 	.agc_list_body > ul > li .agc_lb_con .agc_lb_tit a{ font-size:16px; line-height:23px;}
 	.agc_list_body > ul > li .agc_lb_con .agc_lb_tit span{ color:#EF4348;}
 	.agc_list_body > ul > li .agc_lb_con .agc_lb_sjt{ display:none;}
@@ -839,10 +841,11 @@ transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg)
 
 }
 
-@media (max-width:700px){
+@media (max-width:959px){
 	/* search result */
-	.agc_write_list ul{ margin-left:0; padding:0;}
-	.agc_write_list ul li{ float:none; width:auto; margin-left:0; padding:20px 13px;}
+	.agc_write_list ul{ overflow:hidden; margin-left:-2%; padding:0;}
+	.agc_write_list ul li{ float:left; width:48%; margin-left:2%; border:1px solid #ddd; border-radius:20px; box-sizing:border-box; padding:20px; overflow:hidden; margin-bottom:20px;}
+	
 	.agc_write_list ul li .agc_wl_pic{ width:18px;}
 	.agc_write_list ul li .agc_wl_con{ width:calc(100% - 24px);}
 	.agc_write_list ul li .agc_wl_con .agc_wl_name{ line-height:20px; height:40px; overflow:hidden; margin-bottom:27px;}
@@ -853,4 +856,8 @@ transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg)
 	.agc_write_list ul li .agc_wl_con .agc_wl_info .agc_wl_schl{ display:none;}
 	.agc_write_list ul li .agc_wl_con hr{ margin:10px 0px 12px -37px; width:calc(100% + 50px);}
 	.agc_write_list ul li .agc_wl_con .agc_wl_count span{ margin-right:13px}
+}
+@media (max-width:699px){
+	.agc_write_list ul{ margin-left:0; padding:0;}
+	.agc_write_list ul li{ float:none; width:auto; margin-left:0; padding:20px 13px;}
 }

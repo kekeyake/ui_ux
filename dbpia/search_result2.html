@@ -1043,23 +1043,23 @@ readonly="readonly">누리미디어는 개인정보 관련 법률(개인정보�
 							<ul>
 								<li>
 									<a href="#">하은비 하은비 하은비 하은비 하은비 하은비 하은비</a>
-									<p>(<span>연세성공진리학업성취대학교 인문사회</span>)</p>
+									<span>(연세성공진리학업성취대학교 인문사회)</span>
+								</li>
+								<li>
+									<a href="#">하은비 하은비 하은비 하은비 하은비 하은비 하은비</a>
+									<span>(연세 성공진리 학업성취대학교 인문사회)</span>
+								</li>
+								<li>
+									<a href="#">하은비 하은비 하은비</a>
+									<span>(연세 성공진리 학업성취대학교 인문사회)</span>
+								</li>
+								<li>
+									<a href="#">하은비 하은비</a>
+									<span>(연세성공진리학업성취대학교 인문사회)</span>
 								</li>
 								<li>
 									<a href="#">하은비</a>
-									<p>(<span>연세성공진리학업성취대학교 인문사회</span>)</p>
-								</li>
-								<li>
-									<a href="#">하은비</a>
-									<p>(<span>연세성공진리학업성취대학교 인문사회</span>)</p>
-								</li>
-								<li>
-									<a href="#">하은비</a>
-									<p>(<span>연세성공진리학업성취대학교 인문사회</span>)</p>
-								</li>
-								<li>
-									<a href="#">하은비</a>
-									<p>(<span>연세성공진리학업성취대학교 인문사회</span>)</p>
+									<span>(연세성공진리 학업성취대학교 인문사회)</span>
 								</li>
 							</ul>
 						</div><!-- agc_write_box -->
@@ -1141,12 +1141,18 @@ readonly="readonly">누리미디어는 개인정보 관련 법률(개인정보�
 						</div><!-- agc_sns_pop -->
 					</div><!-- agc_ub_left -->
 					<div class="agc_ub_right">
-						<a href="#" class="agc_btn_bmark">내서재 담기</a>
 						<a href="#" class="agc_btn_bmark agc_active">내서재 담김</a>
 						<a href="#" class="agc_btn_down">다운받기</a>
 						<a href="#" class="agc_btn_view">논문보기</a>
 						<a href="#" class="agc_btn_link">외부링크</a>
 					</div><!-- agc_ub_right -->
+					<!-- ui test script -->
+					<script>
+						$('.agc_btn_bmark').on('click',function(){
+							$(this).toggleClass('agc_active');
+							return false;
+						});
+					</script>
 				</div><!-- agc_util_btns -->
 				<p class="agc_red_msg">이 논문을 2021-12-17에 이용했습니다.</p>
 
@@ -1785,12 +1791,18 @@ readonly="readonly">누리미디어는 개인정보 관련 법률(개인정보�
 	<div class="agc_fixed_noti">
 		<span>모바일 헬스케어 어플리케이션의 지속적 사용 결정 요인의 지속적 사용 결정 요인의 지속적 사용요인의 지속적 사용 결정 요인의 지속적 사용요인의 지속적 사용 결정 요인의 지속적 사용</a></span>
 		<div class="agc_fn_btns">
-			<a href="#" class="agc_fn_bmark"></a>
 			<a href="#" class="agc_fn_bmark agc_active"></a>
 			<a href="#" class="agc_fn_down"></a>
 			<a href="#" class="agc_fn_book"></a>
 			<a href="#" class="agc_fn_share"></a>
 		</div><!-- agc_fn_btns -->
+		<!-- ui test script -->
+		<script>
+			$('.agc_fn_bmark').on('click',function(){
+				$(this).toggleClass('agc_active');
+				return false;
+			});
+		</script>
 	</div><!-- agc_fixed_noti -->
 
 	<div class="agc_mobile_btns">
